@@ -1,5 +1,3 @@
-/* styles.css */
-
 @font-face {
   font-family: "TeX Gyre Heros Condensed";
   src: url("fonts/texgyreheros.gyreheroscondensed-regular.otf") format("opentype");
@@ -10,14 +8,14 @@
   font-style: italic;
 }
 
-/* Reset Default Styles */
+/* reset default styles */
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-/* Apply Default Styling to Body*/
+/* apply default styling to body*/
 body {
 	font-size: 2.2rem;
 	font-weight: 400;
@@ -100,11 +98,36 @@ body a.icon-link:hover {
   margin-right: 1.5%;
 }
 
-/* Add Styling to Homepage */
+/* grid styling */
+.grid-container {
+  max-width: 100%;
+  display: grid;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+/* main pages */
 .homepage {
   display: flex;
   height: 100%;
 }
+
+.about {
+  flex: 1;
+  padding-left: 2.25%;
+  padding-right: 2%;
+  padding-top: 4.25%;
+  overflow-y: scroll;
+}
+
+.about::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+/* home page exlusive styling */
 
 .left-page, .right-page {
   flex: 1;
@@ -150,14 +173,6 @@ body a.icon-link:hover {
 /**
  * Editor styles
  */
-
-a:active {
-	opacity: 0.7;
-}
-
-.page a.active {
-	opacity: .4;
-}
 
 i{
 	font-style: italic;
@@ -225,6 +240,10 @@ small {
 small a {
   color: rgba(155, 155, 155, 0.8);
 	border-bottom-width: 0;
+}
+
+small a.active {
+	opacity: 0.4;
 }
 
 /**
