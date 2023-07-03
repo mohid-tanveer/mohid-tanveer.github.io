@@ -53,18 +53,6 @@ body a.icon-link:hover {
   z-index: 9999;
 }
 
-.topnav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.topnav .middle {
-  flex-grow: 1;
-  text-align: center;
-  margin-left: 5%;
-}
-
 /* Add styling for the Bottomnav */
 .bottomnav {
   bottom: 0;
@@ -79,33 +67,51 @@ body a.icon-link:hover {
   z-index: 9999;
 }
 
-.bottomnav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* grid styling */
+.grid-container5050 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-.bottomnav .middle {
-  flex-grow: 1;
+.grid-container25 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-container30 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.grid-item25l {
+  padding-left: 0px;
+  text-align: left;
+}
+.grid-item25r {
+  padding: 0px;
+  text-align: right;
+}
+
+.grid-item5050 {
+  padding: 20px;
+}
+
+.grid-item30l {
+  padding-left: 7%;
+  text-align: left;
+}
+
+.grid-item30c {
+  padding-left: 33%;
   text-align: center;
 }
 
-.bottomnav .left {
-  margin-left: 1.5%;
-}
-
-.bottomnav .right {
-  margin-right: 1.5%;
-}
-
-/* grid styling */
-.grid-container {
-  max-width: 100%;
-  display: grid;
-}
-
-.grid-item {
-  padding: 20px;
+.grid-item30r {
+  transform: translateX(28%);
+  text-align: right;
 }
 
 /* main pages */
