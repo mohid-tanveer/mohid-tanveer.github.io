@@ -163,7 +163,7 @@ body a.icon-link:hover {
   padding-left: 2.25dvw;
   padding-right: 2.25dvw;
   padding-top: 9dvh;
-  padding-bottom: 9dvh;
+  padding-bottom: 12dvh;
 }
 
 .about::-webkit-scrollbar{
