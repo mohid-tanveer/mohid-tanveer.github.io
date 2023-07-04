@@ -7,6 +7,10 @@
   src: url("fonts/texgyreheros.gyreheroscondensed-italic.otf") format("opentype");
   font-style: italic;
 }
+@font-face {
+  font-family: "Alps Thin Bold";
+  src: url("fonts/AlpsThinBold.ttf") format("truetype");
+}
 
 /* reset default styles */
 body, html {
@@ -17,7 +21,7 @@ body, html {
 
 /* apply default styling to body*/
 body {
-  font-family: "TeX Gyre Heros Condensed", Icons;
+  font-family: "TeX Gyre Heros Condensed";
   font-style: normal;
 	font-weight: 400;
   padding: 0;
@@ -26,7 +30,6 @@ body {
 	line-height: 1.3;
   letter-spacing: .07dvw;
   color: rgba(0, 0, 0, 0.65);
-  
 }
 
 body a {
@@ -54,6 +57,7 @@ body a.icon-link:hover {
   height: 10%;
   background: none;
   z-index: 9999;
+  overflow: hidden;
 }
 
 /* Add styling for the Bottomnav */
@@ -67,6 +71,7 @@ body a.icon-link:hover {
   width: 50%;
   background-color: #ffed00;
   z-index: 9999;
+  overflow: hidden;
 }
 
 /* grid styling */
@@ -113,6 +118,7 @@ body a.icon-link:hover {
 /* Style the text below the images */
 .grid-itemwork p {
   margin-top: 10px;
+  text-align: left;
 }
 
 .grid-item25l {
@@ -157,6 +163,7 @@ body a.icon-link:hover {
   padding-left: 2.25dvw;
   padding-right: 2dvw;
   padding-top: 9dvh;
+  padding-bottom: 8dvh;
 }
 
 .workindex {
@@ -166,7 +173,18 @@ body a.icon-link:hover {
   padding-bottom: 12dvh;
 }
 
-.about::-webkit-scrollbar{
+.interestsblog {
+  padding-left: 20dvw;
+  padding-right: 20dvw;
+  padding-top: 9dvh;
+  padding-bottom: 2dvh;
+  background-color: rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar, 
+.left-page::-webkit-scrollbar, 
+.right-page::-webkit-scrollbar {
+  display: none;
   width: 0;
   background-color: transparent;
 }
@@ -179,11 +197,6 @@ body a.icon-link:hover {
   padding-right: 2dvw;
   padding-top: 9dvh;
   overflow-y: scroll;
-}
-
-.left-page::-webkit-scrollbar, .right-page::-webkit-scrollbar {
-  width: 0;
-  background-color: transparent;
 }
 
 .left-page {
@@ -230,7 +243,7 @@ hr {
 }
 
 h1 {
-	font-family: "TeX Gyre Heros Condensed", Icons;
+	font-family: "TeX Gyre Heros Condensed";
 	font-style: normal;
 	font-weight: 400;
 	padding: 0;
@@ -244,11 +257,22 @@ h1 a {
 	color: rgba(0, 0, 0, 0.85);
 }
 
+h2 {
+  font-family: "Alps Thin Bold";
+  font-style: bold;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-size: 2.5dvw;
+  line-height: 1;
+  letter-spacing: 0.15dvw;
+}
+
 small {
 	display: inline-block;
 	font-size: 1.05dvw;
 	line-height: 1.3;
-	font-family: "TeX Gyre Heros Condensed", Icons;
+	font-family: "TeX Gyre Heros Condensed";
 	font-style: normal;
 	font-weight: 400;
 	color: rgba(136, 136, 136, 0.8);
