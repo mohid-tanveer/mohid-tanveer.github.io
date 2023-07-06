@@ -106,7 +106,6 @@ body a.icon-link:hover {
   text-align: center;
 }
 
-/* Style the image inside the grid items */
 .grid-itemwork img {
   width: 100%;
   height: auto;
@@ -115,7 +114,6 @@ body a.icon-link:hover {
   object-fit: cover;
 }
 
-/* Style the text below the images */
 .grid-itemwork p {
   margin-top: 10px;
   text-align: left;
@@ -132,6 +130,14 @@ body a.icon-link:hover {
 
 .grid-item5050 {
   padding: 2%;
+}
+
+.grid-item5050 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
 }
 
 .grid-item30l {
@@ -166,9 +172,16 @@ body a.icon-link:hover {
   padding-bottom: 8dvh;
 }
 
-.workindex {
+.worklist {
   padding-left: 2.25dvw;
   padding-right: 2.25dvw;
+  padding-top: 9dvh;
+  padding-bottom: 12dvh;
+}
+
+.workindex {
+  padding-left: 2.25dvw;
+  padding-right: 1dvw;
   padding-top: 9dvh;
   padding-bottom: 12dvh;
 }
