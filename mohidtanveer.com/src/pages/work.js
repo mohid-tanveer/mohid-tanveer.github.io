@@ -1,7 +1,7 @@
 import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg } from "../images";
 import { React, useEffect } from 'react';
 import './pages.css';
-import { Topnav, Bottomnav } from '../components';
+import { Topnav, Bottomnav, Mobilenav } from '../components';
 import { Link } from 'react-router-dom';
 
 
@@ -14,6 +14,7 @@ const Work = () => {
         <div className="work">
             <Topnav />
             <Bottomnav />
+            <Mobilenav />
             <div class="worklist">
                 <h1>Projects/Skills</h1><br /><br /><br />
                 <div class="grid-containerwork">

@@ -2,7 +2,7 @@ import { ShellImg, Music, Photocomp } from '../images';
 import styles from './personal.module.css'
 import { React, useEffect } from 'react';
 import './pages.css';
-import { Topnav, Bottomnav } from '../components';
+import { Topnav, Bottomnav, Mobilenav } from '../components';
 import classNames from 'classnames';
 
 const Personal = () => {
@@ -16,6 +16,7 @@ const Personal = () => {
     <div>
         <Topnav />
         <Bottomnav />
+        <Mobilenav />
         <div className={personalPage}>
             <h1><span style={{ color: 'rgba(255, 255, 255, 0.65)' }}>What makes [me] me.</span></h1><br /><br /><br />
             <span style={{ color: 'rgba(255, 255, 255, 0.65)' }}>

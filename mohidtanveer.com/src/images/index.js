@@ -6,6 +6,7 @@ import DijkstrasImg from "./dijkstras.png";
 import RacketImg from "./racket.png";
 import Photocomp from "./photocomp.mp4";
 import Arrow from "./-113.png";
+import Hamburger from "./hamburger.png";
 import ProfilePic from "./profile.png";
 import Analogsentimentalism from "./analog sentimentalism.mp4";
 import Music from "./music.mp4";
@@ -20,6 +21,7 @@ export {
     Photocomp,
     Music,
     Arrow,
+    Hamburger,
     ProfilePic,
     Analogsentimentalism,
 };

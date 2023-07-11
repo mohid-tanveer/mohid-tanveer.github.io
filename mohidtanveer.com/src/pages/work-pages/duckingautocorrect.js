@@ -1,7 +1,7 @@
 import { AutocorrectImg, AutocorrectVid } from '../../images';
 import { React, useEffect } from 'react';
 import '../pages.css';
-import { Topnav, Bottomnav, Worknav } from '../../components';
+import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Duckingautocorrect = () => {
   useEffect(() => {
@@ -12,6 +12,7 @@ const Duckingautocorrect = () => {
     <div>
         <Topnav />
         <Bottomnav />
+        <Mobilenav />
         <Worknav leftUrl="/work/blueshell" rightUrl="/work/sentiment" />
         <div class="workindex">
         <div class="grid-container5050">

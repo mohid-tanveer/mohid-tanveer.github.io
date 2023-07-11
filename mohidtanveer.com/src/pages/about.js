@@ -3,7 +3,7 @@ import { Resume } from '../files';
 import React from 'react';
 import styles from './about.module.css'
 import './pages.css';
-import { Topnav, Bottomnav } from '../components';
+import { Topnav, Bottomnav, Mobilenav } from '../components';
 
 const videoBackground = (
     <video className={styles.aboutvideo} playsInline autoPlay loop muted preload="auto">
@@ -17,6 +17,7 @@ const About = () => {
         {videoBackground}
         <Topnav />
         <Bottomnav />
+        <Mobilenav />
         <div className="about">
             <div className="grid-container5050">
                 <div className="grid-item5050">
@@ -32,7 +33,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="grid-item5050">
-                    <span style={{ fontSize: '1.4vw', lineHeight: 1.4, color: '#fff' }}>
+                    <span style={{ lineHeight: 1.4, color: '#fff' }}>
                     I mean what really makes a person who they are? I think it’s the company they keep; the people they collaborate
                     with socially and professionally. The thing is you want to work with people who are adaptable, who can fit a mold
                     and drive you creatively and motivate you. Hear what I have to offer and I assure you that I would be that fit

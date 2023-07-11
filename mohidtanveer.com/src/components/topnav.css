@@ -5,9 +5,8 @@
   
 /* Add styling for the Topnav */
 .topnav {
-    height: 5vh;
     position: fixed;
-    padding-top: 1dvh;
+    padding-top: .75rem;
     padding-inline-start: 2dvw;
     width: 96%;
     height: 10%;
@@ -46,7 +45,7 @@ hr {
 
 small {
     display: inline-block;
-    font-size: 1.05dvw;
+    font-size: 1.75rem;
     line-height: 1.3;
     font-family: "TeX Gyre Heros Condensed";
     font-style: normal;
@@ -74,4 +73,19 @@ small a {
 
 .work .workk{
     opacity: 0.4;
+}
+
+/* Mobile CSS! */
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1020px) {
+    .topnav {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    
 }

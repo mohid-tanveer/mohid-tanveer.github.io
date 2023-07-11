@@ -1,7 +1,7 @@
 import React from 'react'
 import './worknav.css';
 import { Link } from 'react-router-dom';
-import Arrow from '../images/-113.png';
+import { Arrow } from '../images';
 
 const Worknav = ({ leftUrl, rightUrl }) => {
   const leftArrowClass = leftUrl === '' ? 'lowerurtone' : '';

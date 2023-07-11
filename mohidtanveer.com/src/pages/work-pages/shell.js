@@ -2,7 +2,7 @@ import { ShellImg } from '../../images';
 import { ShellMD } from '../../files';
 import { React, useEffect } from 'react';
 import '../pages.css';
-import { Topnav, Bottomnav, Worknav } from '../../components';
+import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Blueshell = () => {
   useEffect(() => {
@@ -13,6 +13,7 @@ const Blueshell = () => {
     <div>
         <Topnav />
         <Bottomnav />
+        <Mobilenav />
         <Worknav leftUrl="/work/dijkstras" rightUrl="/work/duckingautocorrect" />
         <div class="workindex">
         <div class="grid-container5050">

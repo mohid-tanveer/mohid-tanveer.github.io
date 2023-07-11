@@ -2,7 +2,7 @@ import {  } from '../../images';
 import {  } from '../../files';
 import { React, useEffect } from 'react';
 import '../pages.css';
-import { Topnav, Bottomnav, Worknav } from '../../components';
+import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Template = () => {
   useEffect(() => {
@@ -13,6 +13,7 @@ const Template = () => {
     <div>
         <Topnav />
         <Bottomnav />
+        <Mobilenav />
         <Worknav leftUrl="" rightUrl="" />
         <div class="workindex">
         <div class="grid-container5050">

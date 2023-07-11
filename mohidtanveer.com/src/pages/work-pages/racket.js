@@ -2,7 +2,7 @@ import { RacketImg } from '../../images';
 import { RacketMD } from '../../files';
 import { React, useEffect } from 'react';
 import '../pages.css';
-import { Topnav, Bottomnav, Worknav } from '../../components';
+import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Racket = () => {
   useEffect(() => {
@@ -13,6 +13,7 @@ const Racket = () => {
     <div>
         <Topnav />
         <Bottomnav />
+        <Mobilenav />
         <Worknav leftUrl="/work/hash" rightUrl="/work/dijkstras" />
         <div class="workindex">
         <div class="grid-container5050">

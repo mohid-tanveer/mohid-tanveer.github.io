@@ -2,7 +2,7 @@ import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, Music,
 import styles from './homepage.module.css';
 import React from 'react';
 import './pages.css';
-import { Topnav, Bottomnav } from '../components';
+import { Topnav, Bottomnav, Mobilenav } from '../components';
 import { Link } from 'react-router-dom';
 
 const Homepage = () => {
@@ -10,6 +10,7 @@ const Homepage = () => {
     <div className="Homepage">
       <Topnav />
       <Bottomnav />
+      <Mobilenav />
       <div className="left-page" style={{ overflow: 'scroll' }}>
         <h1>Work/Projects<br /></h1>
         <br /><br /><br />

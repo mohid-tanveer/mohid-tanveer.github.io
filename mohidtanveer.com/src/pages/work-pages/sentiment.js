@@ -2,7 +2,7 @@ import { SentimentImg } from '../../images';
 import { SentimentMD } from '../../files';
 import { React, useEffect } from 'react';
 import '../pages.css';
-import { Topnav, Bottomnav, Worknav } from '../../components';
+import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Sentiment = () => {
   useEffect(() => {
@@ -13,6 +13,7 @@ const Sentiment = () => {
     <div>
         <Topnav />
         <Bottomnav />
+        <Mobilenav />
         <Worknav leftUrl="/work/duckingautocorrect" rightUrl="" />
         <div class="workindex">
         <div class="grid-container5050">

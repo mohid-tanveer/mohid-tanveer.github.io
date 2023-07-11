@@ -2,7 +2,7 @@ import { DijkstrasImg } from '../../images';
 import { DijkstrasMD } from '../../files';
 import { React, useEffect } from 'react';
 import '../pages.css';
-import { Topnav, Bottomnav, Worknav } from '../../components';
+import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Dijkstras = () => {
   useEffect(() => {
@@ -13,6 +13,7 @@ const Dijkstras = () => {
     <div>
         <Topnav />
         <Bottomnav />
+        <Mobilenav />
         <Worknav leftUrl="/work/racket" rightUrl="/work/shell" />
         <div class="workindex">
         <div class="grid-container5050">
