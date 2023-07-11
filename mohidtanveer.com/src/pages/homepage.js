@@ -1,4 +1,4 @@
-import { ShellImg, AutocorrectVid, SentimentImg, Photocomp } from "../images";
+import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, Music, Photocomp } from "../images";
 import styles from './homepage.module.css';
 import React from 'react';
 import './pages.css';
@@ -16,8 +16,8 @@ const Homepage = () => {
         <Link to="/work/website"><img className={styles.homepageimg} src={ShellImg} alt="This website." /></Link><br />This website. - React.js/HTML/CSS<br />July 2023<br /><br /><br />
         <Link to="/work/rr"><img className={styles.homepageimg} src={ShellImg} alt="#RR" /></Link><br />#RR - C<br />April 2023<br /><br /><br />
         <Link to="/work/hash"><img className={styles.homepageimg} src={ShellImg} alt="Finding the Hash." /></Link><br />Finding the Hash. - C<br />April 2023<br /><br /><br />
-        <Link to="/work/racketinterpreter"><img className={styles.homepageimg} src={ShellImg} alt="What’s that Racket?" /></Link><br />What’s that Racket? - Java<br />April 2023<br /><br /><br />
-        <Link to="/work/dijkstras"><img className={styles.homepageimg} src={ShellImg} alt="It’s just Dijkstra’s?" /></Link><br />It’s just Dijkstra’s? - Racket<br />March 2023<br /><br /><br />
+        <Link to="/work/racket"><img className={styles.homepageimg} src={RacketImg} alt="What’s that Racket?" /></Link><br />What’s that Racket? - Java<br />April 2023<br /><br /><br />
+        <Link to="/work/dijkstras"><img className={styles.homepageimg} src={DijkstrasImg} alt="It’s just Dijkstra’s?" /></Link><br />It’s just Dijkstra’s? - Racket<br />March 2023<br /><br /><br />
         <Link to="/work/blueshell"><img className={styles.homepageimg} src={ShellImg} alt="Blue Shell!" /></Link><br />Blue Shell! - C<br />Feb 2023<br /><br /><br />
         <Link to="/work/duckingautocorrect">
           <video className={styles.homepagevideo} autoPlay muted loop playsInline style={{ borderRadius: '20px' }}>
@@ -47,7 +47,9 @@ const Homepage = () => {
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A Living Contradiction; Splitting myself into pages. — these ideas are the inspiration for this site.
           — a wreckage of variables, beauty in simplified layers. <br /><br /><br /><br /><br />
           <div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself. </h2></div><br /><br /><br />
-          <img className={styles.homepageimg} src={ShellImg} alt="Music and the Visual Arts" /><br /><br />
+          <video className={styles.homepagevideo} autoPlay muted loop playsInline>
+            <source src={Music} alt="Music and the Visual Arts" type="video/mp4" />
+          </video><br /><br />
           <span style={{ color: '#ffed00' }}>Music and the Visual Arts</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic release of emotion. As humans, we are led to consume that which targets our senses and emotions.
           Since these forms of media are the most accessible, they are also the most powerful.<br /><br /><br /><br />

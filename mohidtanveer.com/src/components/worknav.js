@@ -10,8 +10,8 @@ const Worknav = ({ leftUrl, rightUrl }) => {
   return (
     <div class="arrows">
       <div class="grid-container5050">
-          <div className={`grid-item5050 ${leftArrowClass}`}><Link to={leftUrl}><img src={Arrow} /></Link></div>
-          <div className={`grid-item5050 ${rightArrowClass}`}><Link to={rightUrl} style={{transform: 'scaleX(-1)'}}><img src={Arrow} /></Link></div>
+          <div className={`grid-item5050 ${leftArrowClass}`}><Link to={leftUrl}><img alt="Left Arrow" src={Arrow} /></Link></div>
+          <div className={`grid-item5050 ${rightArrowClass}`}><Link to={rightUrl} style={{transform: 'scaleX(-1)'}}><img alt="Right Arrow" src={Arrow} /></Link></div>
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import { ShellImg, Photocomp } from '../images';
+import { ShellImg, Music, Photocomp } from '../images';
 import styles from './personal.module.css'
 import { React, useEffect } from 'react';
 import './pages.css';
@@ -7,7 +7,7 @@ import classNames from 'classnames';
 
 const Personal = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+    window.scrollTo(0, 0);
   }, []);
 
   const personalPage = classNames(styles.personalbody, 'interestsblog');
@@ -32,7 +32,7 @@ const Personal = () => {
               — a wreckage of variables, beauty in simplified layers.<br />&nbsp; &nbsp; &nbsp; &nbsp;  When creating I like to be deliberate about what I do, I want everything to
               have its meaning and purpose (sometimes even multiple). I want to be able to create something that stimulates minds; grabs and guides your attention and getting the user
               to interact and learn more.<br /><br /><br /><br /><div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself.</h2></div> <br /><br /><br />
-              <img className={styles.personalimg} src={ShellImg} alt="Music and the Visual Arts" /><br /><br />
+              <video className={styles.personalvideo} alt="Music and the Visual Arts" autoPlay loop playsInline controls><source src={Music} type="video/mp4" /></video><br /><br />
               <span style={{ color: '#ffed00' }}>Music and the Visual Arts</span><br />
               &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic release of emotion. As humans we are led to consume that which targets our senses and emotions.
               Since these forms of media are the most accessible, they are also the most powerful. <br />&nbsp; &nbsp; &nbsp; &nbsp; Growing up I was always fascinated by the idea

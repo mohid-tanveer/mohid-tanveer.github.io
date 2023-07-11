@@ -1,4 +1,4 @@
-import { ShellImg, AutocorrectVid, SentimentImg } from "../images";
+import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg } from "../images";
 import { React, useEffect } from 'react';
 import './pages.css';
 import { Topnav, Bottomnav } from '../components';
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Work = () => {
     useEffect(() => {
-        window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+        window.scrollTo(0, 0); 
       }, []);
 
     return (
@@ -30,11 +30,11 @@ const Work = () => {
                         <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>Finding the Hash. - C</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
-                        <Link to="/work/racketinterpreter"><img src={ShellImg} alt="What’s that Racket?" />
+                        <Link to="/work/racket"><img src={RacketImg} alt="What’s that Racket?" />
                         <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>What’s that Racket? - Java</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
-                        <Link to="/work/dijkstras"><img src={ShellImg} alt="It’s just Dijkstra’s?" />
+                        <Link to="/work/dijkstras"><img src={DijkstrasImg} alt="It’s just Dijkstra’s?" />
                         <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>It’s just Dijkstra’s? - Racket</span></p></Link>
                     </div>
                     <div class="grid-itemwork">

@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { Homepage, Work, Personal, About } from './pages';
-import { Sentiment, Duckingautocorrect, Blueshell, Dijkstras } from './pages/work-pages';
+import { Sentiment, Duckingautocorrect, Blueshell, Dijkstras, Racket } from './pages/work-pages';
 
 function App() {
 return (
@@ -27,6 +27,7 @@ function AppContent() {
           <Route path="/work/duckingautocorrect" element={<Duckingautocorrect />} />
           <Route path="/work/blueshell" element={<Blueshell />} />
           <Route path="/work/dijkstras" element={<Dijkstras />} />
+          <Route path="/work/racket" element={<Racket />} />
         </Routes>
       </div>
   );
