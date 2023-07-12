@@ -6,6 +6,7 @@ import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Dijkstras = () => {
   useEffect(() => {
+    document.title = "it's just dijkstra's? - mohid tanveer portfolio";
     window.scrollTo(0, 0);
   }, []);
 
@@ -44,7 +45,7 @@ const Dijkstras = () => {
               smallest. The function calls then itself with the updated frontier and explored lists. Finally once the function was written, 
               I call it with the initial frontier and explored lists, if it ends up returning a path then I reverse the sequence of vertices
               and return it along with the weight. Otherwise, return false. <a href={DijkstrasMD} rel="noopener noreferrer" target="_blank">Here</a> 
-              &nbsp;is a sample interaction with the project. You can browse the source code and read more about the project objectives on the 
+              &nbsp;is a sample interaction with the project. You can browse the source code and read more about the project objectives at the 
               repository linked above.
             </span>
           </div>

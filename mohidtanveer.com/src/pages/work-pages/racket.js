@@ -6,6 +6,7 @@ import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Racket = () => {
   useEffect(() => {
+    document.title = "what's that racket? - mohid tanveer portfolio";
     window.scrollTo(0, 0);
   }, []);
 
@@ -29,7 +30,7 @@ const Racket = () => {
               expressions, evaluating conditionals, and evaluating primitive, non-primitive, and anonymous functions such as lambdas.
               Building an interpreter allowed me to gain a deeper understanding of parsing techniques, such as tokenization, lexical 
               analysis, and syntactic analysis. <a href={RacketMD} rel="noopener noreferrer" target="_blank">Here</a> is an example
-              interaction with the interpreter. You can browse the source code and read more about the project objectives on the repository linked above.
+              interaction with the interpreter. You can browse the source code and read more about the project objectives at the repository linked above.
             </span>
           </div>
           <div class="grid-item5050">

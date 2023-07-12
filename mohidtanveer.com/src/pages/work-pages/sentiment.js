@@ -7,6 +7,7 @@ import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 const Sentiment = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "why the long face? - mohid tanveer portfolio";
   }, []);
 
   return (
@@ -30,7 +31,7 @@ const Sentiment = () => {
               &nbsp;is an example of the program in action. You can obviously see that the algorithm implemented in the program is not perfect, especially when dealing
               with cases of sarcasm. However, it is a good example of how a simple algorithm can be useful in approximating the sentiment of a statement. The main objectives
               of this project were to implement a BST map and to practice scanning through files and isolating necessary information. You can browse the source code and read 
-              more about the project objectives on the repository linked above.
+              more about the project objectives at the repository linked above.
             </span>
           </div>
           <div class="grid-item5050">

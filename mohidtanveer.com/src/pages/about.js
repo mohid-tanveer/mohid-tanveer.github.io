@@ -1,6 +1,6 @@
 import { Analogsentimentalism, ProfilePic } from '../images';
 import { Resume } from '../files';
-import React from 'react';
+import { React, useEffect } from 'react';
 import styles from './about.module.css'
 import './pages.css';
 import { Topnav, Bottomnav, Mobilenav } from '../components';
@@ -12,7 +12,11 @@ const videoBackground = (
 );
 
 const About = () => {
-  return (
+    useEffect(() => {
+        document.title = 'about me - mohid tanveer portfolio';
+        window.scrollTo(0, 0);
+    }, []);
+    return (
     <div>
         {videoBackground}
         <Topnav />
@@ -39,7 +43,7 @@ const About = () => {
                     and drive you creatively and motivate you. Hear what I have to offer and I assure you that I would be that fit
                     for your purposes.<br /><br />&nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am a current junior at Rhodes
                     College studying Computer Science. I am currently interested in Data Structures/Systems and Cloud Computing Systems.
-                    I am proficient in Python, C, Java, C, HTML, CSS and I am fluent in Racket, JavaScript and C++.<br /><br />
+                    I am proficient in Python, C, Java, C, JavaScript, HTML, CSS and I am fluent in Racket and C++.<br /><br />
                     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; I am the kind of person who loves to learn new skills and refine them.
                     &nbsp;Nothing is perfect, everything is an unfinished project; you can always improve. You will find evidence of
                     this idea on this website.<br />&nbsp; &nbsp; I pride myself as an organized person, I like to keep everything
@@ -67,7 +71,7 @@ const About = () => {
             </div>
         </div>
     </div>
-  );
+    );
 }
 
 export default About;
