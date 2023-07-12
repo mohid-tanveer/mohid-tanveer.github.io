@@ -43,7 +43,7 @@ const About = () => {
                     and drive you creatively and motivate you. Hear what I have to offer and I assure you that I would be that fit
                     for your purposes.<br /><br />&nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am a current junior at Rhodes
                     College studying Computer Science. I am currently interested in Data Structures/Systems and Cloud Computing Systems.
-                    I am proficient in Python, C, Java, C, JavaScript, HTML, CSS and I am fluent in Racket and C++.<br /><br />
+                    I am proficient in Python, C, Java, C, JavaScript, HTML, CSS and I am fluent in React.js, Racket, and C++.<br /><br />
                     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; I am the kind of person who loves to learn new skills and refine them.
                     &nbsp;Nothing is perfect, everything is an unfinished project; you can always improve. You will find evidence of
                     this idea on this website.<br />&nbsp; &nbsp; I pride myself as an organized person, I like to keep everything
