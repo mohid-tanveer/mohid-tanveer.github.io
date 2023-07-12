@@ -1,7 +1,7 @@
 {
   "name": "mohidtanveer.com",
   "version": "0.1.0",
-  "homepage": "https://mohid-tanveer.github.io/",
+  "homepage": "https://mohid-tanveer.github.io/mohidtanveer.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
