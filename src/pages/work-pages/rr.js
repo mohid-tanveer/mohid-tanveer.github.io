@@ -30,7 +30,7 @@ const RR = () => {
               programming, networking, and project management skills. In doing so, I was also able to put my hash map implementation to use in a
               application. Unlike Yik-Yak, Rhodes Ramble is a command-line application. The user can create an account, log in, post, and view posts
               from other users. The user can also view the most popular posts, which are determined by the number of likes (represented by a karma value) 
-              they have received. This application also did not implementation the geolocation features of Yik-Yak, instead it ran on a single server
+              they have received. This application also did not implement the geolocation features of Yik-Yak, instead it ran on a single server
               on campus which required users to be connected to the Rhodes network to use the application. <a href={rrMD} rel="noopener noreferrer" 
               target="_blank">Here</a> is a sample interaction with the application. You can browse the source code and read more about the project 
               and its structure in the README.md at the repository linked above.
