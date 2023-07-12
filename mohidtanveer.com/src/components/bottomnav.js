@@ -6,9 +6,9 @@ const Bottomnav = () => {
   return (
     <div className="bottomnav">
       <div className="grid-container30">
-        <div className="grid-item30l"><small><Link to="/work" className='workk'><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>PROJECTS</span></Link></small></div>
-        <div className="grid-item30c"><small><Link to="/about" className='aboutmee'><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>ABOUT ME</span></Link></small></div>
-        <div className="grid-item30r"><small><Link to="/personal" className='personall'><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>INTERESTS</span></Link></small></div>
+        <div className="grid-item30l"><small><Link to="/work" className='workk'><span className='nosplitting'>PROJECTS</span></Link></small></div>
+        <div className="grid-item30c"><small><Link to="/about" className='aboutmee'><span className='nosplitting'>ABOUT ME</span></Link></small></div>
+        <div className="grid-item30r"><small><Link to="/personal" className='personall'><span className='nosplitting'>INTERESTS</span></Link></small></div>
       </div>
     </div>
   );

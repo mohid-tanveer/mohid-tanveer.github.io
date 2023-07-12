@@ -29,8 +29,8 @@ const Sentiment = () => {
               The scores range from 0 to 4 with 0 being the worst and 4 being the most positive score. <a href={SentimentMD} rel="noopener noreferrer" target="_blank">Here</a> 
               &nbsp;is an example of the program in action. You can obviously see that the algorithm implemented in the program is not perfect, especially when dealing
               with cases of sarcasm. However, it is a good example of how a simple algorithm can be useful in approximating the sentiment of a statement. The main objectives
-              of this project were to implement a BST map and to practice scanning through files and isolating necessary information. You can browse the source code on
-              the repository linked above.
+              of this project were to implement a BST map and to practice scanning through files and isolating necessary information. You can browse the source code and read 
+              more about the project objectives on the repository linked above.
             </span>
           </div>
           <div class="grid-item5050">

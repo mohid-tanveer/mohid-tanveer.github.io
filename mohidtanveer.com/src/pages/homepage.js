@@ -1,4 +1,4 @@
-import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, Music, Photocomp } from "../images";
+import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, HashImg, rrImg, Music, Photocomp } from "../images";
 import styles from './homepage.module.css';
 import React from 'react';
 import './pages.css';
@@ -14,9 +14,9 @@ const Homepage = () => {
       <div className="left-page" style={{ overflow: 'scroll' }}>
         <h1>Work/Projects<br /></h1>
         <br /><br /><br />
-        <Link to="/work/website"><img className={styles.homepageimg} src={ShellImg} alt="This website." /></Link><br />This website. - React.js/HTML/CSS<br />July 2023<br /><br /><br />
-        <Link to="/work/rr"><img className={styles.homepageimg} src={ShellImg} alt="#RR" /></Link><br />#RR - C<br />April 2023<br /><br /><br />
-        <Link to="/work/hash"><img className={styles.homepageimg} src={ShellImg} alt="Finding the Hash." /></Link><br />Finding the Hash. - C<br />April 2023<br /><br /><br />
+        <Link to="/work/website"><img className={styles.homepageimg} src={ShellImg} alt="this website." /></Link><br />this website. - React.js/HTML/CSS<br />July 2023<br /><br /><br />
+        <Link to="/work/rr"><img className={styles.homepageimg} src={rrImg} alt="#RR" /></Link><br />##RR - C<br />MAY 2023<br /><br /><br />
+        <Link to="/work/hash"><img className={styles.homepageimg} src={HashImg} alt="Where's the Hash." /></Link><br />Where's the Hash. - C<br />April 2023<br /><br /><br />
         <Link to="/work/racket"><img className={styles.homepageimg} src={RacketImg} alt="What’s that Racket?" /></Link><br />What’s that Racket? - Java<br />April 2023<br /><br /><br />
         <Link to="/work/dijkstras"><img className={styles.homepageimg} src={DijkstrasImg} alt="It’s just Dijkstra’s?" /></Link><br />It’s just Dijkstra’s? - Racket<br />March 2023<br /><br /><br />
         <Link to="/work/blueshell"><img className={styles.homepageimg} src={ShellImg} alt="Blue Shell!" /></Link><br />Blue Shell! - C<br />Feb 2023<br /><br /><br />

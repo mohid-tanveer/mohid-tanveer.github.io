@@ -29,7 +29,7 @@ const Blueshell = () => {
               to run another program. Once it has determined what to do, it will either run the built-in action or fork a child process to run the program. <a href={ShellMD} rel="noopener noreferrer" target="_blank">Here</a> 
               &nbsp;is a sample interaction of the shell running on my Unix machine. In the picture on the right you can see the shell running on my Windows machine. This
               project allowed me to gain familiarity with C syntax and semantics as well as pointers to data and string processing functions in C. You can browse the source code 
-              on the repository linked above.
+              and read more about the project objectives on the repository linked above.
             </span>
           </div>
           <div class="grid-item5050">

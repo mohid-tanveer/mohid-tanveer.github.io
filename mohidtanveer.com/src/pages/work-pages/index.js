@@ -3,5 +3,8 @@ import Duckingautocorrect from "./duckingautocorrect";
 import Blueshell from "./shell";
 import Dijkstras from "./dijkstras";
 import Racket from "./racket";
+import Hash from "./hash";
+import RR from "./rr";
+import Website from "./website";
 
-export { Sentiment, Duckingautocorrect, Blueshell, Dijkstras, Racket, };
+export { Sentiment, Duckingautocorrect, Blueshell, Dijkstras, Racket, Hash, RR, Website, };

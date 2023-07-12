@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { Homepage, Work, Personal, About } from './pages';
-import { Sentiment, Duckingautocorrect, Blueshell, Dijkstras, Racket } from './pages/work-pages';
+import { Sentiment, Duckingautocorrect, Blueshell, Dijkstras, Racket, Hash, RR, Website, } from './pages/work-pages';
 
 function App() {
 return (
@@ -28,6 +28,9 @@ function AppContent() {
           <Route path="/work/blueshell" element={<Blueshell />} />
           <Route path="/work/dijkstras" element={<Dijkstras />} />
           <Route path="/work/racket" element={<Racket />} />
+          <Route path="/work/hash" element={<Hash />} />
+          <Route path="/work/rr" element={<RR />} />
+          <Route path="/work/website" element={<Website />} />
         </Routes>
       </div>
   );

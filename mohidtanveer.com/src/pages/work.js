@@ -1,4 +1,4 @@
-import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg } from "../images";
+import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, HashImg, rrImg, } from "../images";
 import { React, useEffect } from 'react';
 import './pages.css';
 import { Topnav, Bottomnav, Mobilenav } from '../components';
@@ -19,16 +19,16 @@ const Work = () => {
                 <h1>Projects/Skills</h1><br /><br /><br />
                 <div class="grid-containerwork">
                     <div class="grid-itemwork">
-                        <Link to="/work/website"><img src={ShellImg} alt="This website." />
-                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>This website. - React.js/Html/Css</span></p></Link>
+                        <Link to="/work/website"><img src={ShellImg} alt="this website." />
+                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>this website. - React.js/Html/Css</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
-                        <Link to="/work/rr"><img src={ShellImg} alt="#RR" />
-                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>#RR - C</span></p></Link>
+                        <Link to="/work/rr"><img src={rrImg} alt="#RR" />
+                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>##RR - C</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
-                        <Link to="/work/hash"><img src={ShellImg} alt="Finding the Hash." />
-                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>Finding the Hash. - C</span></p></Link>
+                        <Link to="/work/hash"><img src={HashImg} alt="Where's the Hash." />
+                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>Where's the Hash. - C</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
                         <Link to="/work/racket"><img src={RacketImg} alt="What’s that Racket?" />

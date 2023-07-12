@@ -14,13 +14,13 @@ const Dijkstras = () => {
         <Topnav />
         <Bottomnav />
         <Mobilenav />
-        <Worknav leftUrl="/work/racket" rightUrl="/work/shell" />
+        <Worknav leftUrl="/work/racket" rightUrl="/work/blueshell" />
         <div class="workindex">
         <div class="grid-container5050">
           <div class="grid-item5050">
             <h1>It’s just Dijkstra’s?</h1><br /><br />
             <span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>
-              <i>Created in Racket — March 2023 — </i>
+              <i>Created in Racket — MARCH 2023 — </i>
               <a href="https://github.com/mohid-tanveer/racket-projects/blob/main/graphs%20and%20dijkstras.rkt" rel="noopener noreferrer" target="_blank">repository link</a><br />
               This project was created during my Programming Languages course. In this course we were mainly focused on learning the
               semantics surrounding functional programming languages. If you are not familiar with functional programming languages,
@@ -44,7 +44,8 @@ const Dijkstras = () => {
               smallest. The function calls then itself with the updated frontier and explored lists. Finally once the function was written, 
               I call it with the initial frontier and explored lists, if it ends up returning a path then I reverse the sequence of vertices
               and return it along with the weight. Otherwise, return false. <a href={DijkstrasMD} rel="noopener noreferrer" target="_blank">Here</a> 
-              &nbsp;is a sample interaction with the project. You can browse the source code on the repository linked above.
+              &nbsp;is a sample interaction with the project. You can browse the source code and read more about the project objectives on the 
+              repository linked above.
             </span>
           </div>
           <div class="grid-item5050">

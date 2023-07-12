@@ -267,6 +267,8 @@ h2 {
 
 /* Mobile CSS! */
 
+
+
 @media (max-width: 1200px) {
     .centerlogoo {
         font-size: 3rem;
@@ -305,6 +307,13 @@ h2 {
     .centerlogoo {
         font-size: 2rem;
     }
+    h1 {
+        font-size: 7rem;
+    }
+    .interestsblog {
+        padding-left: 10dvw;
+        padding-right: 10dvw;
+    }
 }
 
 
@@ -316,6 +325,28 @@ h2 {
         font-size: 1.5rem;
     }
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    .interestsblog {
+        padding-left: 5dvw;
+        padding-right: 5dvw;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: .7rem;
+    }
+    .centerlogoo {
+        font-size: 1.3rem;
+    }
+    h1 {
+        font-size: 3.3rem;
+    }
+    h2 {
+        font-size: 2rem;
     }
 }

@@ -4,6 +4,8 @@ import AutocorrectImg from "./autocorrect.png";
 import SentimentImg from "./sentiment.png";
 import DijkstrasImg from "./dijkstras.png";
 import RacketImg from "./racket.png";
+import HashImg from "./hash.png";
+import rrImg from "./rr.png";
 import Photocomp from "./photocomp.mp4";
 import Arrow from "./-113.png";
 import Hamburger from "./hamburger.png";
@@ -18,6 +20,8 @@ export {
     SentimentImg,
     DijkstrasImg,
     RacketImg,
+    HashImg,
+    rrImg,
     Photocomp,
     Music,
     Arrow,

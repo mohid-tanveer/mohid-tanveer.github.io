@@ -22,7 +22,7 @@ const About = () => {
             <div className="grid-container5050">
                 <div className="grid-item5050">
                     <h1>
-                    <span style={{ color: '#fff' }}>Mohid Tanveer,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Split In Parts</span>
+                    <span className={styles.abouth1}>Mohid Tanveer,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Split In Parts</span>
                     </h1>
                     <br />
                     <br />
@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="grid-item5050">
-                    <span style={{ lineHeight: 1.4, color: '#fff' }}>
+                    <span className={styles.abouttext}>
                     I mean what really makes a person who they are? I think it’s the company they keep; the people they collaborate
                     with socially and professionally. The thing is you want to work with people who are adaptable, who can fit a mold
                     and drive you creatively and motivate you. Hear what I have to offer and I assure you that I would be that fit
