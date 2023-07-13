@@ -269,11 +269,27 @@ h2 {
     h1 {
         font-size: 8rem;
     }
+
+    body{
+        font-size: 1.96rem;
+    }
+
+    .centerlogoo {
+        font-size: 3.11rem;
+    }
 }
 
 @media (max-width: 1784px) {
     h1 {
         font-size: 7rem;
+    }
+    
+    body{
+        font-size: 1.7rem;
+    }
+
+    .centerlogoo {
+        font-size: 2.72rem;
     }
 }
 
@@ -281,22 +297,26 @@ h2 {
     h1 {
         font-size: 6rem;
     }
+    
+    body{
+        font-size: 1.6rem;
+    }
+
+    .centerlogoo {
+        font-size: 2.33rem;
+    }
 }
 @media (max-width: 1354px) {
     h1 {
         font-size: 4.45rem;
     }
+    
+    body{
+        font-size: 1.5rem;
+    }
 }
 
 /* Mobile CSS! */
-
-
-
-@media (max-width: 1200px) {
-    .centerlogoo {
-        font-size: 3rem;
-    }
-}
 
 @media (max-width: 1020px) {
     body {

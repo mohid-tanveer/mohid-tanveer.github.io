@@ -77,13 +77,25 @@ small a.active {
     color: rgba(0, 0, 0, 0.65);
 }
 
-/* Mobile CSS! */
-
-@media (max-width: 1280px) {
+@media (max-width: 2000px) {
+    .bottomnav {
+        height: 3.5rem;
+    }
     .nosplitting {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 }
+
+@media (max-width: 1784px) {
+    .bottomnav {
+        height: 3rem;
+    }
+    .nosplitting {
+        font-size: 1.4rem;
+    }
+}
+
+/* Mobile CSS! */
 
 @media (max-width: 1110px) {
     .nosplitting {

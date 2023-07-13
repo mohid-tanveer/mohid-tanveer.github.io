@@ -1,4 +1,4 @@
-# mohidtanveer.com
+# mohid-tanveer.github.io
 
 A portfolio website written in React.js, HTML, and CSS.
 
