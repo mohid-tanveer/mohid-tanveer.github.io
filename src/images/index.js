@@ -1,24 +1,24 @@
-import ShellImg from "./shell.png";
-import AutocorrectVid from "./autocorrect.mp4";
-import AutocorrectThumbnail from "./autocorrectthumbnail.png";
-import AutocorrectImg from "./autocorrect.png";
-import SentimentImg from "./sentiment.png";
-import DijkstrasImg from "./dijkstras.png";
-import RacketImg from "./racket.png";
-import HashImg from "./hash.png";
-import rrImg from "./rr.png";
-import WebsiteImg from "./website.png";
-import Photocomp from "./photocomp.mp4";
-import PhotocompThumbnail from "./photocomp.png";
-import Arrow from "./-113.png";
-import Hamburger from "./hamburger.png";
-import ProfilePic from "./profile.png";
-import Analogsentimentalism from "./analog sentimentalism.mp4";
-import AnalogsentimentalismThumbnail from "./analog sentimentalism.png";
-import Music from "./music.mp4";
-import MusicThumbnail from "./music.png";
-import Design from "./design.png";
-import Data from "./filtered_data.png";
+import ShellImg from "./shell.webp";
+import AutocorrectVid from "./autocorrect.webm";
+import AutocorrectThumbnail from "./autocorrectthumbnail.webp";
+import AutocorrectImg from "./autocorrect.webp";
+import SentimentImg from "./sentiment.webp";
+import DijkstrasImg from "./dijkstras.webp";
+import RacketImg from "./racket.webp";
+import HashImg from "./hash.webp";
+import rrImg from "./rr.webp";
+import WebsiteImg from "./website.webp";
+import Photocomp from "./photocomp.webm";
+import PhotocompThumbnail from "./photocomp.webp";
+import Arrow from "./-113.webp";
+import Hamburger from "./hamburger.webp";
+import ProfilePic from "./profile.webp";
+import Analogsentimentalism from "./analog sentimentalism.webm";
+import AnalogsentimentalismThumbnail from "./analog sentimentalism.webp";
+import Music from "./music.webm";
+import MusicThumbnail from "./music.webp";
+import Design from "./design.webp";
+import Data from "./filtered_data.webp";
 
 export {
     ShellImg,

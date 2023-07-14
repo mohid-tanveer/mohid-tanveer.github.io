@@ -46,7 +46,7 @@ const Work = () => {
                     </div>
                     <div class="grid-itemwork">
                         <Link to='/work/duckingautocorrect'><video autoPlay muted loop playsInline
-                        style={{ borderRadius: '20px' }}><source src={AutocorrectVid} type="video/mp4"/>
+                        style={{ borderRadius: '20px' }}><source src={AutocorrectVid} type="video/webm"/>
                         <script type="application/ld+json">{JSON.stringify(autocorrectVideoData)}</script></video>
                         <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>Ducking Autocorrect. - Java</span></p></Link>
                     </div>

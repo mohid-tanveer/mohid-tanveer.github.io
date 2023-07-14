@@ -8,7 +8,7 @@ import { Topnav, Bottomnav, Mobilenav } from '../components';
 
 const videoBackground = (
     <video className={styles.aboutvideo} playsInline autoPlay loop muted preload="auto">
-        <source src={Analogsentimentalism} type="video/mp4" />
+        <source src={Analogsentimentalism} type="video/webm" />
         <script type="application/ld+json">{JSON.stringify(analogsentimentalismVideoData)}</script>
     </video>
 );
