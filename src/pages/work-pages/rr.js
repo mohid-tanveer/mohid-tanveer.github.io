@@ -33,7 +33,7 @@ const RR = () => {
               they have received. This application also did not implement the geolocation features of Yik-Yak, instead it ran on a single server
               on campus which required users to be connected to the Rhodes network to use the application. <a href={rrMD} rel="noopener noreferrer" 
               target="_blank">Here</a> is a sample interaction with the application. You can browse the source code and read more about the project 
-              and its structure in the README.md at the repository linked above.
+              and its structure in the README.md by request at the repository linked above.
             </span>
           </div>
           <div class="grid-item5050">

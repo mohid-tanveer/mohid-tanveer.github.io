@@ -31,7 +31,7 @@ const Hash = () => {
               struct could handle a large amount of data along with executing a large number of operations without any leaks. Once these tests were passed,
               I could be confident that the data structure was working properly and the hash map was ready to be used in other projects such as Rhodes Ramble (RR).&nbsp;
               <a href={HashMD} rel="noopener noreferrer" target="_blank">Here</a> is an example interaction of the hash map running against test cases. 
-              You can browse the source code and read more about the project objectives at the repository linked above.
+              You can browse the source code and read more about the project objectives by request at the repository linked above.
             </span>
           </div>
           <div class="grid-item5050">
