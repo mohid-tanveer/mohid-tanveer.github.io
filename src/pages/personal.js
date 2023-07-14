@@ -35,7 +35,7 @@ const Personal = () => {
               — a wreckage of variables, beauty in simplified layers.<br />&nbsp; &nbsp; &nbsp; &nbsp;  When creating I like to be deliberate about what I do, I want everything to
               have its meaning and purpose (sometimes even multiple). I want to be able to create something that stimulates minds; grabs and guides your attention and getting the user
               to interact and learn more.<br /><br /><br /><br /><div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself.</h2></div> <br /><br /><br />
-              <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Music} type="video/webm" />
+              <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Music} type="video/mp4" />
               <script type="application/ld+json">{JSON.stringify(musicVideoData)}</script></video><br /><br />
               <span style={{ color: '#ffed00' }}>Music and the Visual Arts</span><br />
               &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic release of emotion. As humans we are led to consume that which targets our senses and emotions.
@@ -43,7 +43,7 @@ const Personal = () => {
               of creating something. I wanted to be able to look at something I made and feel that feeling of satisfaction. I taught myself how to produce music, mix and master, and
               play guitar my freshman year of high school and have been learning ever since. I believe that these skills and mindsets enable me to be a better developer/designer as
               I have an intrinsic motivation to learn how to create and apply my skills more cohesively and effectively in the realms of software engineering and development.<br /><br /><br /><br />
-              <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Photocomp} type="video/webm" />
+              <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Photocomp} type="video/mp4" />
               <script type="application/ld+json">{JSON.stringify(personalityVideoData)}</script></video><br /><br />
               <span style={{ color: '#ffed00' }}>Personality and Drive</span><br />
               &nbsp; &nbsp; &nbsp; &nbsp; <i>Driven, Easy-Going, Eager to Do Things</i> — It's always hard to tell a person's true personality through only words on a screen.

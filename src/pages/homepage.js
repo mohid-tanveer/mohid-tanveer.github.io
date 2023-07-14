@@ -47,14 +47,14 @@ const Homepage = () => {
           — a wreckage of variables, beauty in simplified layers. <br /><br /><br /><br /><br />
           <div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself. </h2></div><br /><br /><br />
           <video className={styles.homepagevideo} autoPlay muted loop playsInline>
-            <source src={Music} type="video/webm" />
+            <source src={Music} type="video/mp4" />
             <script type="application/ld+json">{JSON.stringify(musicVideoData)}</script>
           </video><br /><br />
           <span style={{ color: '#ffed00' }}>Music and the Visual Arts</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic release of emotion. As humans, we are led to consume that which targets our senses and emotions.
           Since these forms of media are the most accessible, they are also the most powerful.<br /><br /><br /><br />
           <video className={styles.homepagevideo} autoPlay muted loop playsInline>
-            <source src={Photocomp} type="video/webm" />
+            <source src={Photocomp} type="video/mp4" />
             <script type="application/ld+json">{JSON.stringify(personalityVideoData)}</script>
           </video><br /><br />
           <span style={{ color: '#ffed00' }}>Personality and Drive</span><br />
