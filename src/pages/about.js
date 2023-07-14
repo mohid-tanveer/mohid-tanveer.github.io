@@ -1,4 +1,5 @@
-import { Analogsentimentalism, AnalogsentimentalismThumbnail, ProfilePic } from '../images';
+import { Analogsentimentalism, ProfilePic } from '../images';
+import { analogsentimentalismVideoData } from '../videoData';
 import { Resume } from '../files';
 import { React, useEffect } from 'react';
 import styles from './about.module.css'
@@ -8,7 +9,7 @@ import { Topnav, Bottomnav, Mobilenav } from '../components';
 const videoBackground = (
     <video className={styles.aboutvideo} playsInline autoPlay loop muted preload="auto">
         <source src={Analogsentimentalism} type="video/mp4" />
-        <img src={AnalogsentimentalismThumbnail} alt="videoBackground Thumbnail" />
+        <script type="application/ld+json">{JSON.stringify(analogsentimentalismVideoData)}</script>
     </video>
 );
 

@@ -1,4 +1,5 @@
-import { Data, Design, Music, MusicThumbnail, Photocomp, PhotocompThumbnail } from '../images';
+import { Data, Design, Music, Photocomp } from '../images';
+import { musicVideoData, personalityVideoData } from '../videoData';
 import styles from './personal.module.css'
 import { React, useEffect } from 'react';
 import './pages.css';
@@ -35,7 +36,7 @@ const Personal = () => {
               have its meaning and purpose (sometimes even multiple). I want to be able to create something that stimulates minds; grabs and guides your attention and getting the user
               to interact and learn more.<br /><br /><br /><br /><div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself.</h2></div> <br /><br /><br />
               <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Music} type="video/mp4" />
-              <img src={MusicThumbnail} alt="Music and the Visual Arts Thumbnail" /></video><br /><br />
+              <script type="application/ld+json">{JSON.stringify(musicVideoData)}</script></video><br /><br />
               <span style={{ color: '#ffed00' }}>Music and the Visual Arts</span><br />
               &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic release of emotion. As humans we are led to consume that which targets our senses and emotions.
               Since these forms of media are the most accessible, they are also the most powerful. <br />&nbsp; &nbsp; &nbsp; &nbsp; Growing up I was always fascinated by the idea
@@ -43,7 +44,7 @@ const Personal = () => {
               play guitar my freshman year of high school and have been learning ever since. I believe that these skills and mindsets enable me to be a better developer/designer as
               I have an intrinsic motivation to learn how to create and apply my skills more cohesively and effectively in the realms of software engineering and development.<br /><br /><br /><br />
               <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Photocomp} type="video/mp4" />
-              <img src={PhotocompThumbnail} alt="Personality and Drive Thumbnail" /></video><br /><br />
+              <script type="application/ld+json">{JSON.stringify(personalityVideoData)}</script></video><br /><br />
               <span style={{ color: '#ffed00' }}>Personality and Drive</span><br />
               &nbsp; &nbsp; &nbsp; &nbsp; <i>Driven, Easy-Going, Eager to Do Things</i> — It's always hard to tell a person's true personality through only words on a screen.
               Visuals tend to speak louder to me.<br />&nbsp; &nbsp; &nbsp; &nbsp; People who meet me, know that I am easy to get to know; I find it easy to relate to and understand people and
