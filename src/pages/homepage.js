@@ -1,4 +1,4 @@
-import { ShellImg, DijkstrasImg, RacketImg, HashImg, rrImg, Design, Music, Data, Photocomp } from "../images";
+import { ShellImg, DijkstrasImg, RacketImg, HashImg, rrImg, Design, Music, MusicThumbnail, Data, Photocomp, PhotocompThumbnail } from "../images";
 import styles from './homepage.module.css';
 import { React, useEffect } from 'react';
 import './pages.css';
@@ -45,13 +45,15 @@ const Homepage = () => {
           — a wreckage of variables, beauty in simplified layers. <br /><br /><br /><br /><br />
           <div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself. </h2></div><br /><br /><br />
           <video className={styles.homepagevideo} autoPlay muted loop playsInline>
-            <source src={Music} alt="Music and the Visual Arts" type="video/mp4" />
+            <source src={Music} type="video/mp4" />
+            <img src={MusicThumbnail} alt="Music and the Visual Arts Thumbnail" />
           </video><br /><br />
           <span style={{ color: '#ffed00' }}>Music and the Visual Arts</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic release of emotion. As humans, we are led to consume that which targets our senses and emotions.
           Since these forms of media are the most accessible, they are also the most powerful.<br /><br /><br /><br />
           <video className={styles.homepagevideo} autoPlay muted loop playsInline>
-            <source src={Photocomp} alt="Personality and Drive" type="video/mp4" />
+            <source src={Photocomp} type="video/mp4" />
+            <img src={PhotocompThumbnail} alt="Personality and Drive Thumbnail" />
           </video><br /><br />
           <span style={{ color: '#ffed00' }}>Personality and Drive</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Driven, Easy-Going, Eager to Do Things</i> — It's always hard to tell a person's true personality through only words on a screen.

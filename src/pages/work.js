@@ -1,4 +1,4 @@
-import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, HashImg, rrImg, WebsiteImg, } from "../images";
+import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, HashImg, rrImg, WebsiteImg, AutocorrectThumbnail, } from "../images";
 import { React, useEffect } from 'react';
 import './pages.css';
 import { Topnav, Bottomnav, Mobilenav } from '../components';
@@ -44,8 +44,9 @@ const Work = () => {
                         <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>Blue Shell! - C</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
-                        <Link to='/work/duckingautocorrect'><video alt="Ducking Autocorrect." autoPlay muted loop playsInline
-                        style={{ borderRadius: '20px' }}><source src={AutocorrectVid} type="video/mp4"/></video>
+                        <Link to='/work/duckingautocorrect'><video autoPlay muted loop playsInline
+                        style={{ borderRadius: '20px' }}><source src={AutocorrectVid} type="video/mp4"/>
+                        <img src={AutocorrectThumbnail} alt="Ducking Autocorrect. Thumbnail" /></video>
                         <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>Ducking Autocorrect. - Java</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
