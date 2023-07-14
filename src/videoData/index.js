@@ -7,7 +7,7 @@ export const musicVideoData = {
     "description": "Video shows me doing karaoke to a song that I made.",
     "thumbnailUrl": MusicThumbnail,
     "contentUrl": Music,
-    "duration": "PT1M20S" 
+    "duration": "PT0M20S" 
 };
 
 export const personalityVideoData = {
