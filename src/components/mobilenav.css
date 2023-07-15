@@ -85,4 +85,19 @@
         color: rgba(0, 0, 0, 0.8);
         border-bottom-width: 0;
     }
+
+    mobilelower a {
+        font-size: 8dvw;
+    }
+
+    .link-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .link-container .linkedin-container {
+        display: flex;
+        align-items: center;
+        margin-right: .5rem;
+    }
 }

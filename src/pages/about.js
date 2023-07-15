@@ -51,8 +51,8 @@ const About = () => {
                     this idea on this website.<br />&nbsp; &nbsp; I pride myself as an organized person, I like to keep everything
                     in scope and work on things in parts; considering all the possibilities.&nbsp;<br /><br />&nbsp; &nbsp;&nbsp;
                     Take your time and explore all of the parts of this website and I hope you decide to reach out and learn more.
-                    All content (images and videos) and work found on the site are mine; inspiration from everywhere. Contact me at
-                    any of the links below.
+                    All content (images and videos) and work found on the site are mine; inspiration from everywhere. Contact me using
+                    the links below or the links in the site navigation.
                     </span>
                     <br />
                     <br />
