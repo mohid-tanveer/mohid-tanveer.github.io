@@ -39,7 +39,7 @@ const Mobilenav = () => {
                     <li><mobile><Link onClick={handleLinkClick} to="/about">About <img className='ArrowImg' alt="Right Arrow" src={Arrow} /></Link></mobile></li>
                     <li><mobile><Link onClick={handleLinkClick} to="/work">Work <img className='ArrowImg' alt="Right Arrow" src={Arrow} /></Link></mobile></li>
                     <li><mobile><Link onClick={handleLinkClick} to="/personal">Personal <img className='ArrowImg' alt="Right Arrow" src={Arrow} /></Link></mobile></li>
-                    <br />
+                    <br /><br /><br /><br />
                     <li><mobilelower>
                         <div className="link-container">
                             <a href="https://github.com/mohid-tanveer" target="_blank" rel="noopener noreferrer">GitHub</a>
