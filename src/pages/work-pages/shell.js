@@ -22,7 +22,7 @@ const Blueshell = () => {
             <h1>Blue Shell!</h1><br /><br />
             <span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>
               <i>Created in C — FEBRUARY 2023 — </i>
-              <a href="https://github.com/mohid-tanveer/c-projects/tree/main/1shell" rel="noopener noreferrer" target="_blank">repository link</a><br />
+              <a href="https://github.com/mohid-tanveer/c-projects/tree/main/1shell" rel="noopener noreferrer" target="_blank">repository link (access by request)</a><br />
               This project was created during my Computer Systems and Systems Programming course. The original goal of the project was to create a shell that could
               run basic commands on a Unix machine. However, I have since updated it to be able to run on Windows as well. This shell first prints the path of the machine
               it is being run on, and then runs a command loop allowing the user to input multiple commands. This loop first prompts the user for an input, then it parses

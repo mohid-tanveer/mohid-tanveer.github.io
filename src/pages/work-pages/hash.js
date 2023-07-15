@@ -22,7 +22,7 @@ const Hash = () => {
             <h1>Where's the Hash?</h1><br /><br />
             <span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>
               <i>Created in C — APRIL 2023 — </i>
-              <a href="https://github.com/mohid-tanveer/c-projects/tree/main/2hashmap" rel="noopener noreferrer" target="_blank">repository link</a><br />
+              <a href="https://github.com/mohid-tanveer/c-projects/tree/main/2hashmap" rel="noopener noreferrer" target="_blank">repository link (access by request)</a><br />
               This project was created during my Computer Systems and Systems Programming course. The goal of this project was not to learn how Hash Tables,
               Linked Lists, or Maps function but rather to implement such a data structure in C by dynamically allocating memory and using pointers. The biggest
               challenge of this project was to maintain 0 leaks across all test cases. This was achieved by testing against a variety of test cases 
