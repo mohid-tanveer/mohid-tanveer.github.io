@@ -1,5 +1,5 @@
 import { rrImg } from '../../images';
-import { rrMD } from '../../files';
+import { rrDOC, rrMD } from '../../files';
 import { React, useEffect } from 'react';
 import '../pages.css';
 import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
@@ -32,8 +32,8 @@ const RR = () => {
               from other users. The user can also view the most popular posts, which are determined by the number of likes (represented by a karma value) 
               they have received. This application also did not implement the geolocation features of Yik-Yak, instead it ran on a single server
               on campus which required users to be connected to the Rhodes network to use the application. <a href={rrMD} rel="noopener noreferrer" 
-              target="_blank">Here</a> is a sample interaction with the application. You can browse the source code and read more about the project 
-              and its structure in the README.md by request at the repository linked above.
+              target="_blank">Here</a> is a sample interaction with the application. You can browse the source code by request at the repository linked above
+              and read more about the project and its structure in the README.md <a href={rrDOC} rel="noopener noreferrer" target="_blank">Here</a>.
             </span>
           </div>
           <div class="grid-item5050">
