@@ -1,4 +1,4 @@
-import { ShellImg, DijkstrasImg, RacketImg, HashImg, rrImg, Design, Music, Data, Photocomp } from "../images";
+import { ShellImg, DijkstrasImg, RacketImg, HashImg, ReceiptifyImg, rrImg, Design, Music, Data, Photocomp } from "../images";
 import { musicVideoData, personalityVideoData } from "../videoData";
 import styles from './homepage.module.css';
 import { React, useEffect } from 'react';
@@ -19,8 +19,8 @@ const Homepage = () => {
       <div className="left-page" style={{ overflow: 'scroll' }}>
         <h1>Work/Projects<br /></h1>
         <br /><br /><br />
-        <Link to="/work/receiptify"><img className={styles.homepageimg} src={rrImg} alt="I need some REST." /><br />I need some REST. - React.js/Python/HTML/CSS</Link><br />JULY 2023<br /><br /><br />
         <Link to="/work/rr"><img className={styles.homepageimg} src={rrImg} alt="#RR" /><br />##RR - C</Link><br />MAY 2023<br /><br /><br />
+        <Link to="/work/receiptify"><img className={styles.homepageimg} src={ReceiptifyImg} alt="I need REST." /><br />I need REST. - React.js/Python/HTML/CSS</Link><br />JULY 2023<br /><br /><br />
         <Link to="/work/hash"><img className={styles.homepageimg} src={HashImg} alt="Where's the Hash?" /><br />Where's the Hash? - C</Link><br />April 2023<br /><br /><br />
         <Link to="/work/racket"><img className={styles.homepageimg} src={RacketImg} alt="What’s that Racket?" /><br />What’s that Racket? - Java</Link><br />April 2023<br /><br /><br />
         <Link to="/work/dijkstras"><img className={styles.homepageimg} src={DijkstrasImg} alt="It’s just Dijkstra’s?" /><br />It’s just Dijkstra’s? - Racket</Link><br />March 2023<br /><br /><br />

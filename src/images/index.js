@@ -8,6 +8,8 @@ import RacketImg from "./racket.png";
 import HashImg from "./hash.png";
 import rrImg from "./rr.png";
 import WebsiteImg from "./website.png";
+import ReceiptifyImg from "./receiptify.png";
+import ReceiptifyVid from "./receiptify.mp4";
 import Photocomp from "./photocomp.mp4";
 import PhotocompThumbnail from "./photocomp.png";
 import Arrow from "./-113.png";
@@ -31,6 +33,8 @@ export {
     HashImg,
     rrImg,
     WebsiteImg,
+    ReceiptifyImg,
+    ReceiptifyVid,
     Photocomp,
     PhotocompThumbnail,
     Music,
