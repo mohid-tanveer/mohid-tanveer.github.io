@@ -6,7 +6,8 @@ import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
 
 const Template = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to the top when the component mounts
+    document.title = "[title] - mohid tanveer portfolio";
+    window.scrollTo(0, 0);
   }, []);
 
   return (

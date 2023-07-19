@@ -21,8 +21,12 @@ const Work = () => {
                 <h1>Projects/Skills</h1><br /><br /><br />
                 <div class="grid-containerwork">
                     <div class="grid-itemwork">
+                        <Link to="/work/receiptify"><img src={WebsiteImg} alt="I need some REST." />
+                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>I need some REST. - React.js/Python/HTML/CSS</span></p></Link>
+                    </div>
+                    <div class="grid-itemwork">
                         <Link to="/work/website"><img src={WebsiteImg} alt="this website." />
-                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>this website. - React.js/Html/Css</span></p></Link>
+                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>this website. - React.js/HTML/CSS</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
                         <Link to="/work/rr"><img src={rrImg} alt="#RR" />

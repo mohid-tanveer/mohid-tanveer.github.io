@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { Homepage, Work, Personal, About } from './pages';
-import { Sentiment, Duckingautocorrect, Blueshell, Dijkstras, Racket, Hash, RR, Website, } from './pages/work-pages';
+import { Sentiment, Duckingautocorrect, Blueshell, Dijkstras, Racket, Hash, RR, Website, Receiptify, } from './pages/work-pages';
 
 function App() {
 return (
@@ -31,6 +31,7 @@ function AppContent() {
           <Route path="/work/hash" element={<Hash />} />
           <Route path="/work/rr" element={<RR />} />
           <Route path="/work/website" element={<Website />} />
+          <Route path="/work/receiptify" element={<Receiptify />} />
         </Routes>
       </div>
   );
