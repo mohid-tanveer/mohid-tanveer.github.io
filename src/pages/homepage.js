@@ -1,4 +1,5 @@
-import { ShellImg, DijkstrasImg, RacketImg, HashImg, rrImg, Design, Music, Data, Photocomp } from "../images";
+import { ShellImg, DijkstrasImg, RacketImg, HashImg, ReceiptifyImg, rrImg, Design, Music, Data, Photocomp } from "../images";
+import { musicVideoData, personalityVideoData } from "../videoData";
 import styles from './homepage.module.css';
 import { React, useEffect } from 'react';
 import './pages.css';
@@ -9,6 +10,7 @@ const Homepage = () => {
   useEffect(() => {
     document.title = 'homepage - mohid tanveer portfolio';
   }, []);
+  
   return (
     <div className="Homepage">
       <Topnav />
@@ -17,11 +19,12 @@ const Homepage = () => {
       <div className="left-page" style={{ overflow: 'scroll' }}>
         <h1>Work/Projects<br /></h1>
         <br /><br /><br />
-        <Link to="/work/rr"><img className={styles.homepageimg} src={rrImg} alt="#RR" /></Link><br />##RR - C<br />MAY 2023<br /><br /><br />
-        <Link to="/work/hash"><img className={styles.homepageimg} src={HashImg} alt="Where's the Hash?" /></Link><br />Where's the Hash? - C<br />April 2023<br /><br /><br />
-        <Link to="/work/racket"><img className={styles.homepageimg} src={RacketImg} alt="What’s that Racket?" /></Link><br />What’s that Racket? - Java<br />April 2023<br /><br /><br />
-        <Link to="/work/dijkstras"><img className={styles.homepageimg} src={DijkstrasImg} alt="It’s just Dijkstra’s?" /></Link><br />It’s just Dijkstra’s? - Racket<br />March 2023<br /><br /><br />
-        <Link to="/work/blueshell"><img className={styles.homepageimg} src={ShellImg} alt="Blue Shell!" /></Link><br />Blue Shell! - C<br />Feb 2023<br /><br /><br />
+        <Link to="/work/rr"><img className={styles.homepageimg} src={rrImg} alt="#RR" /><br />##RR - C</Link><br />May 2023<br /><br /><br />
+        <Link to="/work/receiptify"><img className={styles.homepageimg} src={ReceiptifyImg} alt="I need REST." /><br />I need REST. - React.js/Python/HTML/CSS</Link><br />July 2023<br /><br /><br />
+        <Link to="/work/hash"><img className={styles.homepageimg} src={HashImg} alt="Where's the Hash?" /><br />Where's the Hash? - C</Link><br />April 2023<br /><br /><br />
+        <Link to="/work/racket"><img className={styles.homepageimg} src={RacketImg} alt="What’s that Racket?" /><br />What’s that Racket? - Java</Link><br />April 2023<br /><br /><br />
+        <Link to="/work/dijkstras"><img className={styles.homepageimg} src={DijkstrasImg} alt="It’s just Dijkstra’s?" /><br />It’s just Dijkstra’s? - Racket</Link><br />March 2023<br /><br /><br />
+        <Link to="/work/blueshell"><img className={styles.homepageimg} src={ShellImg} alt="Blue Shell!" /><br />Blue Shell! - C</Link><br />Feb 2023<br /><br /><br />
         <div style={{ textAlign: 'center' }}><Link to="/work">SEE ALL PROJECTS</Link><br /><br /><br /></div><br /><br /><br />
       </div>
       <div className="centerlogo">
@@ -45,13 +48,15 @@ const Homepage = () => {
           — a wreckage of variables, beauty in simplified layers. <br /><br /><br /><br /><br />
           <div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself. </h2></div><br /><br /><br />
           <video className={styles.homepagevideo} autoPlay muted loop playsInline>
-            <source src={Music} alt="Music and the Visual Arts" type="video/mp4" />
+            <source src={Music} type="video/mp4" />
+            <script type="application/ld+json">{JSON.stringify(musicVideoData)}</script>
           </video><br /><br />
           <span style={{ color: '#ffed00' }}>Music and the Visual Arts</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic release of emotion. As humans, we are led to consume that which targets our senses and emotions.
           Since these forms of media are the most accessible, they are also the most powerful.<br /><br /><br /><br />
           <video className={styles.homepagevideo} autoPlay muted loop playsInline>
-            <source src={Photocomp} alt="Personality and Drive" type="video/mp4" />
+            <source src={Photocomp} type="video/mp4" />
+            <script type="application/ld+json">{JSON.stringify(personalityVideoData)}</script>
           </video><br /><br />
           <span style={{ color: '#ffed00' }}>Personality and Drive</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Driven, Easy-Going, Eager to Do Things</i> — It's always hard to tell a person's true personality through only words on a screen.

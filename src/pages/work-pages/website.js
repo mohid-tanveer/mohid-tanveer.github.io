@@ -14,7 +14,7 @@ const Website = () => {
         <Topnav />
         <Bottomnav />
         <Mobilenav />
-        <Worknav leftUrl="" rightUrl="/work/rr" />
+        <Worknav leftUrl="/work/receiptify" rightUrl="/work/rr" />
         <div class="workindex">
         <div class="grid-container5050">
           <div class="grid-item5050">

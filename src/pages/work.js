@@ -1,4 +1,5 @@
-import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, HashImg, rrImg, WebsiteImg, } from "../images";
+import { ShellImg, AutocorrectVid, SentimentImg, DijkstrasImg, RacketImg, HashImg, rrImg, WebsiteImg, ReceiptifyImg } from "../images";
+import { autocorrectVideoData } from "../videoData";
 import { React, useEffect } from 'react';
 import './pages.css';
 import { Topnav, Bottomnav, Mobilenav } from '../components';
@@ -20,8 +21,12 @@ const Work = () => {
                 <h1>Projects/Skills</h1><br /><br /><br />
                 <div class="grid-containerwork">
                     <div class="grid-itemwork">
+                        <Link to="/work/receiptify"><img src={ReceiptifyImg} alt="I need REST." />
+                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>I need REST. - React.js/Python/HTML/CSS</span></p></Link>
+                    </div>
+                    <div class="grid-itemwork">
                         <Link to="/work/website"><img src={WebsiteImg} alt="this website." />
-                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>this website. - React.js/Html/Css</span></p></Link>
+                        <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>this website. - React.js/HTML/CSS</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
                         <Link to="/work/rr"><img src={rrImg} alt="#RR" />
@@ -44,8 +49,9 @@ const Work = () => {
                         <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>Blue Shell! - C</span></p></Link>
                     </div>
                     <div class="grid-itemwork">
-                        <Link to='/work/duckingautocorrect'><video alt="Ducking Autocorrect." autoPlay muted loop playsInline
-                        style={{ borderRadius: '20px' }}><source src={AutocorrectVid} type="video/mp4"/></video>
+                        <Link to='/work/duckingautocorrect'><video autoPlay muted loop playsInline
+                        style={{ borderRadius: '20px' }}><source src={AutocorrectVid} type="video/mp4"/>
+                        <script type="application/ld+json">{JSON.stringify(autocorrectVideoData)}</script></video>
                         <p><span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>Ducking Autocorrect. - Java</span></p></Link>
                     </div>
                     <div class="grid-itemwork">

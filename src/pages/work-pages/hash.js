@@ -1,5 +1,5 @@
 import { HashImg } from '../../images';
-import { HashMD } from '../../files';
+import { HashMD, hashDOC } from '../../files';
 import { React, useEffect } from 'react';
 import '../pages.css';
 import { Topnav, Bottomnav, Worknav, Mobilenav } from '../../components';
@@ -22,7 +22,7 @@ const Hash = () => {
             <h1>Where's the Hash?</h1><br /><br />
             <span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>
               <i>Created in C — APRIL 2023 — </i>
-              <a href="https://github.com/mohid-tanveer/c-projects/tree/main/2hashmap" rel="noopener noreferrer" target="_blank">repository link</a><br />
+              <a href="https://github.com/mohid-tanveer/c-projects/tree/main/2hashmap" rel="noopener noreferrer" target="_blank">repository link (access by request)</a><br />
               This project was created during my Computer Systems and Systems Programming course. The goal of this project was not to learn how Hash Tables,
               Linked Lists, or Maps function but rather to implement such a data structure in C by dynamically allocating memory and using pointers. The biggest
               challenge of this project was to maintain 0 leaks across all test cases. This was achieved by testing against a variety of test cases 
@@ -31,7 +31,8 @@ const Hash = () => {
               struct could handle a large amount of data along with executing a large number of operations without any leaks. Once these tests were passed,
               I could be confident that the data structure was working properly and the hash map was ready to be used in other projects such as Rhodes Ramble (RR).&nbsp;
               <a href={HashMD} rel="noopener noreferrer" target="_blank">Here</a> is an example interaction of the hash map running against test cases. 
-              You can browse the source code and read more about the project objectives at the repository linked above.
+              You can browse the source code by request at the repository linked above and read more about the project objectives 
+              <a href={hashDOC} rel="noopener noreferrer" target="_blank">Here</a>.
             </span>
           </div>
           <div class="grid-item5050">

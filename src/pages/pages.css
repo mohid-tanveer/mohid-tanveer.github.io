@@ -1,14 +1,17 @@
 @font-face {
     font-family: "TeX Gyre Heros Condensed";
+    font-display: swap;
     src: url("../fonts/texgyreheros.gyreheroscondensed-regular.otf") format("opentype");
   }
 @font-face {
     font-family: "TeX Gyre Heros Condensed";
+    font-display: swap;
     src: url("../fonts/texgyreheros.gyreheroscondensed-italic.otf") format("opentype");
     font-style: italic;
 }
 @font-face {
     font-family: "Alps Thin Bold";
+    font-display: swap;
     src: url("../fonts/AlpsThinBold.ttf") format("truetype");
 }
   

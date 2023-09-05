@@ -1,4 +1,5 @@
 import { Analogsentimentalism, ProfilePic } from '../images';
+import { analogsentimentalismVideoData } from '../videoData';
 import { Resume } from '../files';
 import { React, useEffect } from 'react';
 import styles from './about.module.css'
@@ -7,7 +8,8 @@ import { Topnav, Bottomnav, Mobilenav } from '../components';
 
 const videoBackground = (
     <video className={styles.aboutvideo} playsInline autoPlay loop muted preload="auto">
-    <source src={Analogsentimentalism} type="video/mp4" />
+        <source src={Analogsentimentalism} type="video/mp4" />
+        <script type="application/ld+json">{JSON.stringify(analogsentimentalismVideoData)}</script>
     </video>
 );
 
@@ -43,14 +45,14 @@ const About = () => {
                     and drive you creatively and motivate you. Hear what I have to offer and I assure you that I would be that fit
                     for your purposes.<br /><br />&nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am a current junior at Rhodes
                     College studying Computer Science. I am currently interested in Data Structures/Systems and Cloud Computing Systems.
-                    I am proficient in Python, C, Java, C, JavaScript, HTML, CSS and I am fluent in React.js, Racket, and C++.<br /><br />
+                    I am proficient in Python, C, Java, C, Node.js/React.js, JavaScript, HTML, CSS and I am fluent in Racket and C++.<br /><br />
                     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; I am the kind of person who loves to learn new skills and refine them.
                     &nbsp;Nothing is perfect, everything is an unfinished project; you can always improve. You will find evidence of
                     this idea on this website.<br />&nbsp; &nbsp; I pride myself as an organized person, I like to keep everything
                     in scope and work on things in parts; considering all the possibilities.&nbsp;<br /><br />&nbsp; &nbsp;&nbsp;
                     Take your time and explore all of the parts of this website and I hope you decide to reach out and learn more.
-                    All content (images and videos) and work found on the site are mine; inspiration from everywhere. Contact me at
-                    any of the links below.
+                    All content (images and videos) and work found on the site are mine; inspiration from everywhere. Contact me using
+                    the links below or the links in the site navigation.
                     </span>
                     <br />
                     <br />
