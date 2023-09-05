@@ -27,7 +27,7 @@ const RR = () => {
               apps like Yik Yak are quite popular. Such apps allow users to post anonymously and view posts from other users in their area.
               It essentially operates like Twitter, except your 'tweets' are anonymous and only visible to people in your specific geolocation
               (in this case, the Rhodes campus and surrounding area). In creating this, I gained considerable experience with program client/server 
-              programming, networking, and project management skills. In doing so, I was also able to put my hash map implementation to use in a
+              programming, networking, and project management skills. In doing so, I was also able to put my hash map implementation to use in an
               application. Unlike Yik-Yak, Rhodes Ramble is a command-line application. The user can create an account, log in, post, and view posts
               from other users. The user can also view the most popular posts, which are determined by the number of likes (represented by a karma value) 
               they have received. This application also did not implement the geolocation features of Yik-Yak, instead it ran on a single server
