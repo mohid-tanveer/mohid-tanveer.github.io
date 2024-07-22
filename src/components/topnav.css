@@ -12,8 +12,14 @@
     width: 96%;
     height: 10%;
     background: none;
+    transition: transform 0.5s ease-in-out;
     z-index: 9999;
+    transform: translateY(0);
     overflow: hidden;
+}
+
+.topnav.hidden {
+    transform: translateY(-100%);
 }
 
 /* grid styling */

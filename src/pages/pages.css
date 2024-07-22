@@ -224,8 +224,10 @@ body::-webkit-scrollbar,
   
 .centerlogoo {
     text-align: center;
+    font-family: "MingLiU-ExtB";
     color: rgba(255, 0, 0, 1); 
-    font-size: 3.5rem; 
+    font-size: 3.5rem;
+    font-weight: 600;
     line-height: 1;
     margin-bottom: 3%;
 }

@@ -1,22 +1,27 @@
 import { ShellImg, DijkstrasImg, RacketImg, HashImg, ReceiptifyImg, rrImg, Design, Music, Data, Photocomp } from "../images";
 import { musicVideoData, personalityVideoData } from "../videoData";
 import styles from './homepage.module.css';
-import { React, useEffect } from 'react';
+import { React, useEffect, useRef } from 'react';
 import './pages.css';
-import { Topnav, Bottomnav, Mobilenav } from '../components';
+import { HomeTopnav, Bottomnav, Mobilenav } from '../components';
 import { Link } from 'react-router-dom';
 
 const Homepage = () => {
+  const leftPageRef = useRef(null);
+  const rightPageRef = useRef(null);
+
   useEffect(() => {
     document.title = 'homepage - mohid tanveer portfolio';
   }, []);
+
   
-  return (
+  
+  return ( 
     <div className="Homepage">
-      <Topnav />
+      <HomeTopnav leftPageRef={leftPageRef} rightPageRef={rightPageRef}/>
       <Bottomnav />
       <Mobilenav />
-      <div className="left-page" style={{ overflow: 'scroll' }}>
+      <div className="left-page" ref={leftPageRef} style={{ overflow: 'scroll' }}>
         <h1>Work/Projects<br /></h1>
         <br /><br /><br />
         <Link to="/work/rr"><img className={styles.homepageimg} src={rrImg} alt="#RR" /><br />##RR - C</Link><br />May 2023<br /><br /><br />
@@ -33,7 +38,7 @@ const Homepage = () => {
           MOHID TANVEER™<br />PORTFOLIO®
         </div>
       </div>
-      <div className="right-page" style={{ overflow: 'scroll' }}>
+      <div className="right-page" ref={rightPageRef} style={{ overflow: 'scroll' }}>
         <span style={{ color: 'rgba(255, 255, 255, 0.65)' }}>
           <h1>
             <span style={{ color: 'rgba(255, 255, 255, 0.85)' }}>Personal/Interest</span><br />

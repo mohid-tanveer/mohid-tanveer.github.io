@@ -2,14 +2,16 @@ import React, { useEffect, useState } from 'react';
 import './topnav.css';
 import { Link } from 'react-router-dom';
 
-const Topnav = () => {
+const HomeTopnav = ({ leftPageRef, rightPageRef }) => {
   const [lastScrollTop, setLastScrollTop] = useState(0);
   const [hidden, setHidden] = useState(false);
 
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const leftPageRefCurrent = leftPageRef.current;
+    const rightPageRefCurrent = rightPageRef.current;
+    const handleScroll = (e) => {
+      const scrollTop = e.target === document ? window.pageYOffset || document.documentElement.scrollTop : e.target.scrollTop;
       if (scrollTop > lastScrollTop) {
         setHidden(true);
       } else {
@@ -19,8 +21,23 @@ const Topnav = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [lastScrollTop]);
+    if (leftPageRef.current) {
+      leftPageRef.current.addEventListener('scroll', handleScroll);
+    }
+    if (rightPageRef.current) {
+      rightPageRef.current.addEventListener('scroll', handleScroll);
+    }
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (leftPageRefCurrent) {
+        leftPageRefCurrent.removeEventListener('scroll', handleScroll);
+      }
+      if (rightPageRefCurrent) {
+        rightPageRefCurrent.removeEventListener('scroll', handleScroll);
+      }
+    };
+  }, [lastScrollTop, leftPageRef, rightPageRef]);
 
   return (
     <div className={`topnav ${hidden ? 'hidden' : ''}`}>
@@ -38,4 +55,4 @@ const Topnav = () => {
   );
 }
 
-export default Topnav;
+export default HomeTopnav;
