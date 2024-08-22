@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f4a1823f.css",
-    "main.js": "/static/js/main.687398c9.js",
+    "main.js": "/static/js/main.5c5622f1.js",
     "static/js/453.c9240031.chunk.js": "/static/js/453.c9240031.chunk.js",
     "static/media/photocomp.mp4": "/static/media/photocomp.f1a867fa07772cb6bfec.mp4",
     "static/media/music.mp4": "/static/media/music.9c8bd333754b9256a3fa.mp4",
@@ -25,7 +25,7 @@
     "static/media/shell.png": "/static/media/shell.36e9a31d4c7acfb7ba6c.png",
     "static/media/texgyreheros.gyreheroscondensed-italic.otf": "/static/media/texgyreheros.gyreheroscondensed-italic.904cb984f17f1e0a0f7e.otf",
     "static/media/texgyreheros.gyreheroscondensed-regular.otf": "/static/media/texgyreheros.gyreheroscondensed-regular.06fedac8a27bb38e92c1.otf",
-    "static/media/Mohid Tanveer CV.pdf": "/static/media/Mohid Tanveer CV.b3ab58bc3fa8b5c8f09c.pdf",
+    "static/media/Mohid Tanveer CV.pdf": "/static/media/Mohid Tanveer CV.2a57703d3d7add46b5ea.pdf",
     "static/media/autocorrectthumbnail.png": "/static/media/autocorrectthumbnail.a4d796d03e5a841f6fdd.png",
     "static/media/AlpsThinBold.ttf": "/static/media/AlpsThinBold.e883148c7ace80697a42.ttf",
     "static/media/-113.png": "/static/media/-113.f08c5a4593047c6ca7c8.png",
@@ -40,11 +40,11 @@
     "static/media/dijkstras.md": "/static/media/dijkstras.17ef9fccc0d10cc69a55.md",
     "index.html": "/index.html",
     "main.f4a1823f.css.map": "/static/css/main.f4a1823f.css.map",
-    "main.687398c9.js.map": "/static/js/main.687398c9.js.map",
+    "main.5c5622f1.js.map": "/static/js/main.5c5622f1.js.map",
     "453.c9240031.chunk.js.map": "/static/js/453.c9240031.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4a1823f.css",
-    "static/js/main.687398c9.js"
+    "static/js/main.5c5622f1.js"
   ]
 }
