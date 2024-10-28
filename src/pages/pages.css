@@ -15,7 +15,7 @@
     src: url("../fonts/AlpsThinBold.ttf") format("truetype");
 }
 @font-face {
-    font-family: "MingLiU-ExtB";
+    font-family: "MingLiU";
     font-display: swap;
     src: url("../fonts/MingLiU.ttf") format("truetype");
 }
@@ -229,7 +229,7 @@ body::-webkit-scrollbar,
   
 .centerlogoo {
     text-align: center;
-    font-family: "MingLiU-ExtB";
+    font-family: "MingLiU";
     color: rgb(115, 34, 207); 
     font-size: 3.5rem;
     font-weight: 600;
