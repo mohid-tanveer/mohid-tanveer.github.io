@@ -46,12 +46,11 @@ const Homepage = () => {
           <img className={styles.homepageimg} src={Data} alt="Data and its Manipulation!" /><br /><br />
           <span style={{ color: '#ffed00' }}>Data and its Manipulation</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>How can you define life's instances?</i> — How can you formulate extrapolations for these instances?
-          — consideration of the most basic forms and analysis of everything. <br /><br /><br /><br /><br />
+          — consideration of the most basic forms and analysis of everything. <br /><br /><br /><br />
           <img className={styles.homepageimg} src={Design} alt="Design and Implementation" /><br /><br />
           <span style={{ color: '#ffed00' }}>Design and Implementation</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A Living Contradiction; Splitting myself into pages. — these ideas are the inspiration for this site.
-          — a wreckage of variables, beauty in simplified layers. <br /><br /><br /><br /><br />
-          <div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself. </h2></div><br /><br /><br />
+          — a clash of variables, beauty in simplified layers. <br /><br /><br /><br />
           <video className={styles.homepagevideo} autoPlay muted loop playsInline>
             <source src={Music} type="video/mp4" />
             <script type="application/ld+json">{JSON.stringify(musicVideoData)}</script>
