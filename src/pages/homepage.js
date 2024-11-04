@@ -65,7 +65,7 @@ const Homepage = () => {
           <span style={{ color: '#ffed00' }}>Personality and Drive</span><br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Driven, Easy-Going, Eager to Do Things</i> — It's always hard to tell a person's true personality through only words on a screen.
           Visuals tend to speak louder to me.<br /><br /><br /><br /><br />
-          <div style={{ textAlign: 'center' }}><Link to="/personal">SEE ALL POSTS</Link><br /><br /><br /><br /></div><br /><br />
+          <div style={{ textAlign: 'center' }}><Link to="/personal">VIEW PERSONAL PAGE</Link><br /><br /><br /><br /></div><br /><br />
         </span>
       </div>
     </div>

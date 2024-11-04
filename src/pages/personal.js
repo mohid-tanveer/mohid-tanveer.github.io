@@ -26,15 +26,16 @@ const Personal = () => {
               <span style={{ color: '#ffed00' }}>Data and its Manipulation</span><br />
               &nbsp; &nbsp; &nbsp; &nbsp; <i>How can you define life's instances?</i> — How can you formulate extrapolations for these instances?
               — consideration of the most basic forms and analysis of everything. <br />&nbsp; &nbsp; &nbsp; &nbsp; I am interested in the design and application of data structures
-              within software engineering. This idea that you can collect and group data together in order to solve different issues or provide different services is what drives me within
+              within software engineering. This idea of data collection and grouping in order to solve different issues or provide different services is what drives me within
               the field of computer science and I am interested in learning more about it.
-              <br /><br /><br /><br /><div style={{ textAlign: 'center' }}><h2>Art is everywhere, so make something beautiful.</h2></div><br /><br /><br />
+              <br /><br /><br /><br />
               <img className={styles.personalimg} src={Design} alt="Design and Implementation" /><br /><br />
               <span style={{ color: '#ffed00' }}>Design and Implementation</span><br />
               &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A Living Contradiction; Splitting myself into pages. — these ideas are the inspiration for this site.
               — a wreckage of variables, beauty in simplified layers.<br />&nbsp; &nbsp; &nbsp; &nbsp;  When creating I like to be deliberate about what I do, I want everything to
               have its meaning and purpose (sometimes even multiple). I want to be able to create something that stimulates minds; grabs and guides your attention and getting the user
-              to interact and learn more.<br /><br /><br /><br /><div style={{ textAlign: 'center' }}><h2>Cohesion is bliss, enjoy yourself.</h2></div> <br /><br /><br />
+              to interact and learn more.
+              <br /><br /><br /><br />
               <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Music} type="video/mp4" />
               <script type="application/ld+json">{JSON.stringify(musicVideoData)}</script></video><br /><br />
               <span style={{ color: '#ffed00' }}>Music and the Visual Arts</span><br />
@@ -42,7 +43,8 @@ const Personal = () => {
               Since these forms of media are the most accessible, they are also the most powerful. <br />&nbsp; &nbsp; &nbsp; &nbsp; Growing up I was always fascinated by the idea
               of creating something. I wanted to be able to look at something I made and feel that feeling of satisfaction. I taught myself how to produce music, mix and master, and
               play guitar my freshman year of high school and have been learning ever since. I believe that these skills and mindsets enable me to be a better developer/designer as
-              I have an intrinsic motivation to learn how to create and apply my skills more cohesively and effectively in the realms of software engineering and development.<br /><br /><br /><br />
+              I have an intrinsic motivation to learn how to create and apply my skills more cohesively and effectively in the realms of software engineering and development.
+              <br /><br /><br /><br />
               <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Photocomp} type="video/mp4" />
               <script type="application/ld+json">{JSON.stringify(personalityVideoData)}</script></video><br /><br />
               <span style={{ color: '#ffed00' }}>Personality and Drive</span><br />

@@ -60,6 +60,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
+            <br />
         </div>
     );
 }
