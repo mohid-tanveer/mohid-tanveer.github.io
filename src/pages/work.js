@@ -18,7 +18,7 @@ const Work = () => {
             <Bottomnav />
             <Mobilenav />
             <div class="worklist">
-                <h1>Projects/Skills</h1><br /><br /><br />
+                <h1>Work/Projects</h1><br /><br /><br />
                 <div class="grid-containerwork">
                     <div class="grid-itemwork">
                         <Link to="/work/receiptify"><img src={ReceiptifyImg} alt="I need REST." />

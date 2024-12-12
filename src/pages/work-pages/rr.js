@@ -23,8 +23,7 @@ const RR = () => {
             <span style={{ color: 'rgba(0, 0, 0, 0.65)' }}>
               <i>Created in C — MAY 2023 — </i>
               <a href="https://github.com/mohid-tanveer/c-projects/tree/main/3rhodesramble-yikyakclone" rel="noopener noreferrer" target="_blank">repository link (access by request)</a><br />
-              This project was created at the end of my Computer Systems and Systems Programming course. On college campuses, such as Rhodes,
-              apps like Yik Yak are quite popular. Such apps allow users to post anonymously and view posts from other users in their area.
+              On college campuses, such as Rhodes, apps like Yik Yak are quite popular. Such apps allow users to post anonymously and view posts from other users in their area.
               It essentially operates like Twitter, except your 'tweets' are anonymous and only visible to people in your specific geolocation
               (in this case, the Rhodes campus and surrounding area). In creating this, I gained considerable experience with program client/server 
               programming, networking, and project management skills. In doing so, I was also able to put my hash map implementation to use in an

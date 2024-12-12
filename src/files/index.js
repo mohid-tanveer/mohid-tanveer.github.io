@@ -1,4 +1,4 @@
-import Resume from './Mohid Tanveer CV.pdf'
+import Resume from './Mohid_Tanveer_Resume.pdf'
 import SentimentMD from './sentimentanalysis.md'
 import ShellMD from './shell.md'
 import DijkstrasMD from './dijkstras.md'

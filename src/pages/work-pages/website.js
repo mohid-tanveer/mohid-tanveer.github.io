@@ -32,10 +32,9 @@ const Website = () => {
               layout that would allow me to have more variability to interacting with the website. I created the navbars on the 
               top and bottom, however, I felt that rewriting the code for these on every page was very redundant and inefficient. 
               That's when the TikTok algorithm clicked in and started pushing me videos about web development using React.js. 
-              I decided to port everything over to React. It was sort of a challenge switching from simple HTML and CSS to a 
-              framework like React in the middle of a project, but I love to learn how to do new and more efficient things. 
-              Personally, I love how it turned out and I'm glad that I learned web development skills so I can implement them 
-              in future projects. You can browse the source code for the project at the repository linked above.
+              I decided to port everything over to React. Personally, I love how it turned out and I'm glad that I learned 
+              web development skills so I can implement them in future projects. You can browse the source code for the project 
+              at the repository linked above.
             </span>
           </div>
           <div class="grid-item5050">

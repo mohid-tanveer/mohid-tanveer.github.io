@@ -1,16 +1,47 @@
-import { Data, Design, Music, Photocomp } from '../images';
+import { Data, Design, Music, Photocomp, slideImages, horizSlideImages } from '../images';
 import { musicVideoData, personalityVideoData } from '../videoData';
 import styles from './personal.module.css'
 import { React, useEffect } from 'react';
 import './pages.css';
 import { Topnav, Bottomnav, Mobilenav } from '../components';
 import classNames from 'classnames';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 const Personal = () => {
   useEffect(() => {
     document.title = 'personal info - mohid tanveer portfolio';
     window.scrollTo(0, 0);
+
+    const preloadImages = (images) => {
+      images.forEach((image) => {
+        const img = new Image();
+        img.src = image;
+      });
+    };
+
+    preloadImages(slideImages);
+    preloadImages(horizSlideImages);
   }, []);
+
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 1
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
 
   const personalPage = classNames(styles.personalbody, 'interestsblog');
 
@@ -54,8 +85,32 @@ const Personal = () => {
               multiple differing personalities and interests together to create a cohesive environment. I am able to view things from different perspectives and understand how to reach
               different audiences from a development standpoint. I think maintaining good social interactions with the people around me truly allows me to learn so much more from them and
               further myself as a person and in my career. Feel free to reach out, get to know me, and see how I could slot in with your team and vision.
-              <br /><br /><br /><br /><br /><br />
+              <br /><br /><br /><br />
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+                <div style={{ width: '50%' }}>
+                  <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={10000} transitionDuration={500}>
+                    {slideImages.map((slideImage, index) => (
+                      <div key={index}>
+                        <img src={slideImage} alt={`Slide ${index + 1}`} style={{ width: '100%', height: 'auto' }} />
+                      </div>
+                    ))}
+                  </Carousel>
+                </div>
+                <div style={{ width: '50%', marginTop: '14.525%' }}>
+                  <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={10000} transitionDuration={500}>
+                    {horizSlideImages.map((slideImage, index) => (
+                      <div key={index}>
+                        <img src={slideImage} alt={`Slide ${index + 1}`} style={{ width: '100%', height: 'auto' }} />
+                      </div>
+                    ))}
+                  </Carousel>
+                </div>
+              </div><br /><br />
+              <span style={{ color: '#ffed00' }}>Photography</span><br />
+              &nbsp; &nbsp; &nbsp; &nbsp; <i>Sample of Some Pictures I Have Taken</i>
+              <br /><br /><br /><br />
             </span>
+            <br /><br /><br /><br /><br /><br />
         </div>
     </div>
   );

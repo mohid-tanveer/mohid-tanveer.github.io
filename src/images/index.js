@@ -21,6 +21,40 @@ import Music from "./music.mp4";
 import MusicThumbnail from "./music.png";
 import Design from "./design.png";
 import Data from "./filtered_data.png";
+import Slide1 from "./slide1.jpg";
+import Slide2 from "./slide2.jpg";
+import Slide3 from "./slide3.jpg";
+import Slide4 from "./slide4.png";
+import Slide5 from "./slide5.png";
+import Slide6 from "./slide6.png";
+import hSlide1 from "./hslide1.jpg";
+import hSlide2 from "./hslide2.jpg";
+import hSlide3 from "./hslide3.jpg";
+import hSlide4 from "./hslide4.jpg";
+import hSlide5 from "./hslide5.jpg";
+import hSlide6 from "./hslide6.jpg";
+import hSlide7 from "./hslide7.jpg";
+import hSlide8 from "./hslide8.jpg";
+
+const slideImages = [
+    Slide1,
+    Slide2,
+    Slide3,
+    Slide4,
+    Slide5,
+    Slide6,
+];
+
+const horizSlideImages = [
+    hSlide1,
+    hSlide2,
+    hSlide3,
+    hSlide4,
+    hSlide5,
+    hSlide6,
+    hSlide7,
+    hSlide8,
+]
 
 export {
     ShellImg,
@@ -46,4 +80,6 @@ export {
     ProfilePic,
     Analogsentimentalism,
     AnalogsentimentalismThumbnail,
+    slideImages,
+    horizSlideImages,
 };
