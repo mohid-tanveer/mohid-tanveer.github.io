@@ -56,9 +56,9 @@ const Personal = () => {
               <img className={styles.personalimg} src={Data} alt="Data and its Manipulation" /><br /><br />
               <span style={{ color: '#ffed00' }}>Data and its Manipulation</span><br />
               &nbsp; &nbsp; &nbsp; &nbsp; <i>How can you define life's instances?</i> — How can you formulate extrapolations for these instances?
-              — consideration of the most basic forms and analysis of everything. <br />&nbsp; &nbsp; &nbsp; &nbsp; I am interested in the design and application of data structures
-              within software engineering. This idea of data collection and grouping in order to solve different issues or provide different services is what drives me within
-              the field of computer science and I am interested in learning more about it.
+              — consideration of the most basic forms and analysis of everything. <br />&nbsp; &nbsp; &nbsp; &nbsp; I am interested in the design and algorithmic nature of data structures
+              within computer science. This idea of data collection/grouping and techniques to manipulate it in order to solve different issues or provide different services is what drives me within
+              the field.
               <br /><br /><br /><br />
               <img className={styles.personalimg} src={Design} alt="Design and Implementation" /><br /><br />
               <span style={{ color: '#ffed00' }}>Design and Implementation</span><br />
@@ -79,12 +79,12 @@ const Personal = () => {
               <video className={styles.personalvideo} autoPlay muted loop playsInline><source src={Photocomp} type="video/mp4" />
               <script type="application/ld+json">{JSON.stringify(personalityVideoData)}</script></video><br /><br />
               <span style={{ color: '#ffed00' }}>Personality and Drive</span><br />
-              &nbsp; &nbsp; &nbsp; &nbsp; <i>Driven, Easy-Going, Eager to Do Things</i> — It's always hard to tell a person's true personality through only words on a screen.
+              &nbsp; &nbsp; &nbsp; &nbsp; <i>Driven, Easy-Going, Eager to Do Things</i> — It's tough to tell a person's true personality through only words on a screen.
               Visuals tend to speak louder to me.<br />&nbsp; &nbsp; &nbsp; &nbsp; People who meet me, know that I am easy to get to know; I find it easy to relate to and understand people and
               speak about different topics and interests. Being passionate about a variety of things allows me to gauge the interests of others and find common ground; grouping together
               multiple differing personalities and interests together to create a cohesive environment. I am able to view things from different perspectives and understand how to reach
               different audiences from a development standpoint. I think maintaining good social interactions with the people around me truly allows me to learn so much more from them and
-              further myself as a person and in my career. Feel free to reach out, get to know me, and see how I could slot in with your team and vision.
+              further myself as a person and in my career. Feel free to reach out, get to know me, and see how I could slot in with your vision.
               <br /><br /><br /><br />
               <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
                 <div style={{ width: '50%' }}>
