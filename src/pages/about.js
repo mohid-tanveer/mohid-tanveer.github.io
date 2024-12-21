@@ -49,7 +49,7 @@ const About = () => {
                     I am advanced in Python; proficient in C, SQL, and Java; and experienced in C++, HTML/CSS, JavaScript, Node.js/React.js, and R.<br /><br />
                     &nbsp; &nbsp; &nbsp; I am the kind of person who loves to learn new skills and refine them.
                     Nothing is perfect, everything is an unfinished project; you can always improve. You will find evidence of
-                    this idea on this website.<br />&nbsp; &nbsp; I pride myself as an organized person, I like to keep everything
+                    this idea on this website.<br />&nbsp; &nbsp; &nbsp; I pride myself as an organized person, I like to keep everything
                     in scope and work on things in parts; considering all the possibilities.<br /><br />&nbsp; &nbsp;&nbsp;
                     Take your time and explore all of the parts of this website and I hope you decide to reach out and learn more.
                     All content (images and videos) and work found on the site are mine; inspiration from everywhere. Contact me using
