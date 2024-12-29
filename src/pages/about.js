@@ -44,8 +44,8 @@ const About = () => {
                     with socially and professionally. You want to work with people who are adaptable, but also have a strong sense of
                     self, driving you creatively and motivating you to innovate. Hear what I have to offer and I assure you that I would be that fit
                     for your purposes.<br /><br />&nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am a current senior at Rhodes
-                    College studying Computer Science. I am currently interested in AI/ML, data structures/algorithms, and statistical methods
-                    and the effects applications of such topics can have on our society and day to day lives.
+                    College studying Computer Science. I am currently interested in AI/ML, data structures/algorithms, and statistical methods—especially
+                    the effects applications of such topics can have on our society and day to day lives.
                     I am advanced in Python; proficient in C, SQL, and Java; and experienced in C++, HTML/CSS, JavaScript, Node.js/React.js, and R.<br /><br />
                     &nbsp; &nbsp; &nbsp; I am the kind of person who loves to learn new skills and refine them.
                     Nothing is perfect, everything is an unfinished project; you can always improve. You will find evidence of
