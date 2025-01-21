@@ -1,110 +1,110 @@
 @font-face {
-    font-family: "TeX Gyre Heros Condensed";
-    font-display: swap;
-    src: url("../fonts/texgyreheros.gyreheroscondensed-regular.otf") format("opentype");
+  font-family: "TeX Gyre Heros Condensed";
+  font-display: swap;
+  src: url("../fonts/texgyreheros.gyreheroscondensed-regular.otf")
+    format("opentype");
 }
-  
+
 /* Add styling for the Topnav */
 .topnav {
-    position: fixed;
-    padding-top: .75rem;
-    padding-inline-start: 2dvw;
-    width: 96%;
-    height: 10%;
-    background: none;
-    transition: transform 0.5s ease-in-out;
-    z-index: 9999;
-    transform: translateY(0);
-    overflow: hidden;
+  position: fixed;
+  padding-top: 0.75rem;
+  padding-inline-start: 2dvw;
+  width: 96%;
+  height: 10%;
+  background: none;
+  transition: transform 0.5s ease-in-out;
+  z-index: 9999;
+  transform: translateY(0);
+  overflow: hidden;
 }
 
 .topnav.hidden {
-    transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 
 /* grid styling */
 .grid-container25 {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .grid-item25l {
-    padding-left: 0px;
-    text-align: left;
+  padding-left: 0px;
+  text-align: left;
 }
 .grid-item25r {
-    padding: 0px;
-    text-align: right;
+  padding: 0px;
+  text-align: right;
 }
 
 /* font styling */
 hr {
-    background: rgba(136, 136, 136, 0.42);
-    border: 0;
-    height: 1px;
-    display: block;
+  background: rgba(136, 136, 136, 0.42);
+  border: 0;
+  height: 1px;
+  display: block;
 }
 
-.aboutme hr{
-    background: rgba(255, 255, 255, 0.42);
+.aboutme hr {
+  background: rgba(255, 255, 255, 0.42);
 }
 
 small {
-    display: inline-block;
-    font-size: 1.75rem;
-    line-height: 1.3;
-    font-family: "TeX Gyre Heros Condensed";
-    font-style: normal;
-    font-weight: 400;
-    color: rgba(136, 136, 136, 0.8);
-    letter-spacing: 0.07rem;
+  display: inline-block;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-family: "TeX Gyre Heros Condensed";
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(136, 136, 136, 0.8);
+  letter-spacing: 0.07rem;
 }
 
 small a {
-    color: rgba(155, 155, 155, 0.8);
-    border-bottom-width: 0;
+  color: rgba(155, 155, 155, 0.8);
+  border-bottom-width: 0;
 }
 
-.aboutme small{
-    color: rgba(255, 255, 255, 1);
+.aboutme small {
+  color: rgba(255, 255, 255, 1);
 }
 
-.aboutme small a{
-    color: rgba(255, 255, 255, 1);
+.aboutme small a {
+  color: rgba(255, 255, 255, 1);
 }
 
-.personal .personall{
-    opacity: 0.4;
+.personal .personall {
+  opacity: 0.4;
 }
 
-.work .workk{
-    opacity: 0.4;
+.work .workk {
+  opacity: 0.4;
 }
 
 @media (max-width: 2000px) {
-    .consistency {
-        font-size: 1.6rem;
-    }
+  .consistency {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 1784px) {
-    .consistency {
-        font-size: 1.4rem;
-    }
+  .consistency {
+    font-size: 1.4rem;
+  }
 }
 
 /* Mobile CSS! */
 
-
 @media (max-width: 1110px) {
-    .consistency {
-        font-size: 1.3rem;
-    }
+  .consistency {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 1020px) {
-    .topnav {
-        display: none;
-    }
+  .topnav {
+    display: none;
+  }
 }

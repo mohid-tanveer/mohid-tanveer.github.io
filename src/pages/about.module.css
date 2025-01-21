@@ -1,91 +1,91 @@
 .aboutbody {
-    background-color: rgb(22, 126, 222);
+  background-color: rgb(22, 126, 222);
 }
 .abouttext {
-    line-height: 1.4; 
-    color: #fff;
+  line-height: 1.4;
+  color: #fff;
 }
 .aboutvideo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(22, 126, 222);
-    z-Index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(22, 126, 222);
+  z-index: -1;
 }
 .abouthr {
-    background: rgba(255, 255, 255, 0.42);
-    border: 0;
-    height: 1px;
-    display: block;
+  background: rgba(255, 255, 255, 0.42);
+  border: 0;
+  height: 1px;
+  display: block;
 }
 .aboutimg {
-    width: 25%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    object-fit: cover;
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  object-fit: cover;
 }
 .abouth1 {
-    color: #fff;
+  color: #fff;
 }
 
 /* Mobile Styling */
 @media (max-width: 1886px) {
-    .abouth1 {
-        font-size: 8rem;
-    }
+  .abouth1 {
+    font-size: 8rem;
+  }
 }
 @media (max-width: 1686px) {
-    .abouth1 {
-        font-size: 7rem;
-    }
+  .abouth1 {
+    font-size: 7rem;
+  }
 }
 @media (max-width: 1484px) {
-    .abouth1 {
-        font-size: 6rem;
-    }
+  .abouth1 {
+    font-size: 6rem;
+  }
 }
 @media (max-width: 1282px) {
-    .abouth1 {
-        font-size: 4.5rem;
-    }
+  .abouth1 {
+    font-size: 4.5rem;
+  }
 }
 @media (max-width: 1020px) {
-    .abouth1 {
-        font-size: 8rem;
-    }
+  .abouth1 {
+    font-size: 8rem;
+  }
 }
 @media (max-width: 842px) {
-    .abouth1 {
-        font-size: 7rem;
-    }
+  .abouth1 {
+    font-size: 7rem;
+  }
 }
 @media (max-width: 742px) {
-    .abouth1 {
-        font-size: 6rem;
-    }
+  .abouth1 {
+    font-size: 6rem;
+  }
 }
 @media (max-width: 640px) {
-    .abouth1 {
-        font-size: 5rem;
-    }
+  .abouth1 {
+    font-size: 5rem;
+  }
 }
 @media (max-width: 540px) {
-    .abouth1 {
-        font-size: 4rem;
-    }
+  .abouth1 {
+    font-size: 4rem;
+  }
 }
 @media (max-width: 438px) {
-    .abouth1 {
-        font-size: 3.5rem;
-    }
+  .abouth1 {
+    font-size: 3.5rem;
+  }
 }
 @media (max-width: 388px) {
-    .abouth1 {
-        font-size: 3rem;
-    }
+  .abouth1 {
+    font-size: 3rem;
+  }
 }

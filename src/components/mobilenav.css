@@ -1,103 +1,104 @@
 @font-face {
-    font-family: "TeX Gyre Heros Condensed";
-    font-display: swap;
-    src: url("../fonts/texgyreheros.gyreheroscondensed-regular.otf") format("opentype");
+  font-family: "TeX Gyre Heros Condensed";
+  font-display: swap;
+  src: url("../fonts/texgyreheros.gyreheroscondensed-regular.otf")
+    format("opentype");
 }
 
 .mobilenav {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 1020px) {
-    .mobilenav {
-        display: block;
-    }
-    
-    .ArrowImg {
-        display: inline-flex;
-        transform: scaleX(-1);
-        width: 7%;
-    }
+  .mobilenav {
+    display: block;
+  }
 
-    .HamburgerImg {
-        width: 100%;
-        height: 100%;
-    }
-    .hamburger-icon {
-        width: 2rem;
-        height: 1.5rem;
-        position: fixed;
-        top: 4dvw;
-        right: 4dvw;
-        z-index: 999;
-    }
-      
-    .menu-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: rgb(255, 255, 255);
-        display: none;
-        justify-content: center;
-        align-items: center;
-        z-index: 998;
-    }
-    
-    .menu-container.open {
-        display: flex;
-    }
-      
-    .menu-container ul {
-        list-style: none;
-        padding: 0;
-    }
-      
-    .menu-container ul li {
-        margin-bottom: 20px;
-        color: #fff;
-        font-size: 24px;
-    }
+  .ArrowImg {
+    display: inline-flex;
+    transform: scaleX(-1);
+    width: 7%;
+  }
 
-    smaller {
-        position: absolute;
-        top: 4dvw;
-        left: 4dvw;
-        display: inline-block;
-        font-size: 3dvw;
-        line-height: 1.3;
-        font-family: "TeX Gyre Heros Condensed";
-        font-style: normal;
-        font-weight: 400;
-        color: rgba(255, 0, 0, 0.8);
-        letter-spacing: 0.07rem;
-    }
-    
-    mobile a {
-        display: inline-block;
-        font-size: 16dvw;
-        line-height: 1.3;
-        font-family: "TeX Gyre Heros Condensed";
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.07rem;
-        color: rgba(0, 0, 0, 0.8);
-        border-bottom-width: 0;
-    }
+  .HamburgerImg {
+    width: 100%;
+    height: 100%;
+  }
+  .hamburger-icon {
+    width: 2rem;
+    height: 1.5rem;
+    position: fixed;
+    top: 4dvw;
+    right: 4dvw;
+    z-index: 999;
+  }
 
-    mobilelower a {
-        font-size: 8dvw;
-    }
+  .menu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 998;
+  }
 
-    .link-container {
-        display: flex;
-        justify-content: space-between;
-    }
+  .menu-container.open {
+    display: flex;
+  }
 
-    .link-container .linkedin-container {
-        display: flex;
-        align-items: center;
-        margin-right: .5rem;
-    }
+  .menu-container ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu-container ul li {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+  }
+
+  smaller {
+    position: absolute;
+    top: 4dvw;
+    left: 4dvw;
+    display: inline-block;
+    font-size: 3dvw;
+    line-height: 1.3;
+    font-family: "TeX Gyre Heros Condensed";
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 0, 0, 0.8);
+    letter-spacing: 0.07rem;
+  }
+
+  mobile a {
+    display: inline-block;
+    font-size: 16dvw;
+    line-height: 1.3;
+    font-family: "TeX Gyre Heros Condensed";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.07rem;
+    color: rgba(0, 0, 0, 0.8);
+    border-bottom-width: 0;
+  }
+
+  mobilelower a {
+    font-size: 8dvw;
+  }
+
+  .link-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link-container .linkedin-container {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+  }
 }

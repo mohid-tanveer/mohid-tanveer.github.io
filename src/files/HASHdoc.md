@@ -5,14 +5,14 @@ hash table.
 
 The objectives of this project were:
 
-* to gain experience writing programs that explicitly manage their own memory
+- to gain experience writing programs that explicitly manage their own memory
   rather than relying on a garbage collection;
-* avoiding any memory leaks;
-* to gain experience writing real, useful general-purpose library code that will
+- avoiding any memory leaks;
+- to gain experience writing real, useful general-purpose library code that will
   be used by client programs;
-* to gain experience programming to an interface;
-* to implement a linked data structure in C;
-* and to learn about hash tables and one implementation of them.
+- to gain experience programming to an interface;
+- to implement a linked data structure in C;
+- and to learn about hash tables and one implementation of them.
 
 ## example interactions
 
@@ -150,7 +150,7 @@ bytes allocated
 |-- README.md  ................ This document
 `-- src ....................... Main source code directory
     |-- books ................. Files used for word count test
-    |   |-- alice...txt 
+    |   |-- alice...txt
     |   |-- ...
     |   `-- walde...txt
     |-- fnv64.h ............... The hash function used
@@ -160,7 +160,7 @@ bytes allocated
     |-- map.h ................. Header file for map; function declarations
     |-- rand1.h ............... Random number generator used in tests
     |-- reference ............. Test programs compiled with reference solution
-    |   |-- idriver 
+    |   |-- idriver
     |   |-- stress_test
     |   `-- word_count
     |-- stress_test.c ......... Test that stresses the map implementation

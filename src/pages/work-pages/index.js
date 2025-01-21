@@ -8,4 +8,14 @@ import RR from "./rr";
 import Website from "./website";
 import Receiptify from "./receiptify";
 
-export { Sentiment, Duckingautocorrect, Blueshell, Dijkstras, Racket, Hash, RR, Website, Receiptify, };
+export {
+  Sentiment,
+  Duckingautocorrect,
+  Blueshell,
+  Dijkstras,
+  Racket,
+  Hash,
+  RR,
+  Website,
+  Receiptify,
+};
