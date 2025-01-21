@@ -87,7 +87,7 @@ src.InterpreterException: Variable not defined:l
       Evaluating: (= 3 3)
       Evaluating: =
 ==> 1
->>> (if (equal? '(1 2) '(1 2)) (cons 'a '(b)) 'c)           
+>>> (if (equal? '(1 2) '(1 2)) (cons 'a '(b)) 'c)
       Evaluating: (if (equal? (quote (1 2)) (quote (1 2))) (cons (quote a) (quote (b))) (quote c))
       Evaluating: (equal? (quote (1 2)) (quote (1 2)))
       Evaluating: equal?
@@ -197,5 +197,5 @@ src.InterpreterException: Variable not defined:l
 ==> 6
 >>> end
 
-mohidtanveer@mohids-MacBook-Pro racketinterpreter % 
+mohidtanveer@mohids-MacBook-Pro racketinterpreter %
 ```

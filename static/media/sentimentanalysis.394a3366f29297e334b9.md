@@ -58,7 +58,7 @@ Skipping years (stopword)
 Skipping old. (never seen before)
 Sentiment score for this review is 2.443801129162346
 
-Enter a new review to analyze:  This is a film so utterly devoid of laughs that it makes one wonder whether Hollywood stars really are feeling the pinch too.
+Enter a new review to analyze: This is a film so utterly devoid of laughs that it makes one wonder whether Hollywood stars really are feeling the pinch too.
 Skipping This (never seen before)
 Skipping is (stopword)
 Skipping a (stopword)

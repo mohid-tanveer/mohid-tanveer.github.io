@@ -12,18 +12,18 @@ Ramble clients and servers use to communicate.
 
 This project was broken up into three parts:
 
-* Writing the Rhodes Ramble service protocol implementation.
-* Writing the Rhodes Ramble client protocol implementation.
-* Modifying the Rhodes Ramble server to be multithreaded.
+- Writing the Rhodes Ramble service protocol implementation.
+- Writing the Rhodes Ramble client protocol implementation.
+- Modifying the Rhodes Ramble server to be multithreaded.
 
 The objectives of this project were:
 
-* to gain experience with client/server programming using a protocol;
-* to practice data parsing and manipulation;
-* to use threads to provide concurrency, along with basic synchronization;
-* to gain experience debugging programs with several processes and layers;
-* to gain experience reading, writing, and understanding code---C in particular;
-* and to gain experience reading and understanding technical documentation.
+- to gain experience with client/server programming using a protocol;
+- to practice data parsing and manipulation;
+- to use threads to provide concurrency, along with basic synchronization;
+- to gain experience debugging programs with several processes and layers;
+- to gain experience reading, writing, and understanding code---C in particular;
+- and to gain experience reading and understanding technical documentation.
 
 ## yik yak and rhodes ramble
 
@@ -33,9 +33,9 @@ The objectives of this project were:
 media/discussion platform. The initial version of the application was quite
 simple; users could do one of three actions:
 
-* Users can create short text posts (called Yaks).
-* Users can add short text comments to Yaks.
-* Comments and Yaks have an associated karma value that is changed by a user up-
+- Users can create short text posts (called Yaks).
+- Users can add short text comments to Yaks.
+- Comments and Yaks have an associated karma value that is changed by a user up-
   or down-voting the comment or yak.
 
 The app is semi-anonymous in the sense that users have accounts and persistent
@@ -58,7 +58,7 @@ Yak "community."
 
 ### rhodes ramble
 
-__Rhodes Ramble__ is a clone of Yik Yak. It is a
+**Rhodes Ramble** is a clone of Yik Yak. It is a
 client-server system, where user clients post Rambles (Yaks) and comments on
 Rambles to a central server.
 
@@ -70,14 +70,14 @@ implement location-based services.
 
 The Rhodes Ramble app supports a handful of operations:
 
-* __Login:__ This allows a user to register or login. Every time a user logs in,
+- **Login:** This allows a user to register or login. Every time a user logs in,
   their icon is changed and they are granted a new _token_.
-* __Post:__ A user creates a ramble.
-* __Comment:__ A user creates a comment.
-* __Vote:__ A user up/down votes a comment or ramble.
-* __Get Posts:__ Retrieve a list of all rambles.
-* __Get Comments:__ Retrieve a list of all comments for a particular ramble.
-* __Get User Info:__ Get information about a user.
+- **Post:** A user creates a ramble.
+- **Comment:** A user creates a comment.
+- **Vote:** A user up/down votes a comment or ramble.
+- **Get Posts:** Retrieve a list of all rambles.
+- **Get Comments:** Retrieve a list of all comments for a particular ramble.
+- **Get User Info:** Get information about a user.
 
 ### code organization and system architecture
 
@@ -96,8 +96,8 @@ The client process was divided into two components: the frontend UI
 
 The UI component has two responsibilities:
 
-* Establish the connection with the server process
-* Delegate all communication with the server to the client library
+- Establish the connection with the server process
+- Delegate all communication with the server to the client library
 
 The client library is responsible for implementing the Rhodes Ramble protocol.
 It has a set of `do_` and `get_` functions that are used by the UI to perform
@@ -127,14 +127,14 @@ the response to the client connection.
 
 The internal data model of Rhodes Ramble has two entities:
 
-* __User:__ A user of the service. Users have a name and a pin (numeric
+- **User:** A user of the service. Users have a name and a pin (numeric
   password), a current emoji, a karma value, and a current token. The name and
   pin are fixed for the lifetime of the user. When the user logs in for the
   first time, their name and initial pin are immutable and fixed. The user's
   emoji and token is changed every time the user logs in. The user's karma is
   the sum of all of their rambles (over all time).
 
-* __Post/Comment:__ A ramble/post and a comment are the same entity, internally. Posts
+- **Post/Comment:** A ramble/post and a comment are the same entity, internally. Posts
   have an id, an emoji, text, and a parent post. Once a post is created, it is
   immutable. Rambles/posts have a NULL parent, while comments have a parent post
   that they belong to. The parent is a post id.
@@ -232,14 +232,14 @@ icon/karma: ☕/0
     |-- rr_server.c  ............... server main function / MAIN SOURCE FILE
     |-- rr_service.h  .............. service implementation of Rhodes Ramble protocol
     |-- rr_service.c  .............. MAIN SOURCE FILE
-    |-- tests  
+    |-- tests
     |   |-- posts_test.c  .......... unit tests for posts
     |   |-- rr_core_test.c  ........ unit tests for service
     |   |-- test_utils.h  .......... unit testing utilities
-    |   |-- test_utils.c 
+    |   |-- test_utils.c
     |   `-- users_test.c  .......... unit tests for users
     |-- uio.h  ..................... io utils for sockets
-    |-- uio.c 
+    |-- uio.c
     |-- users.h  ................... user data model
     |-- users.c
     |-- util.h  .................... utility functions used in the project

@@ -39,7 +39,7 @@ argument_test: argument_test.o
 clean:
         rm -f *.o argument_test environment_test my_shell
 $ history
-history of commands: 
+history of commands:
 0: pwd
 1: cd ..
 2: pwd
@@ -88,5 +88,5 @@ drwxr-xr-x   7 mohidtanveer  staff    224 Jun 20 12:13 ..
 $ make clean
 rm -f *.o argument_test environment_test my_shell
 $ exit
-mohidtanveer@mohids-MacBook-Pro src % 
+mohidtanveer@mohids-MacBook-Pro src %
 ```

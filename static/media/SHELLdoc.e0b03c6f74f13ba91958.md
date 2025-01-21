@@ -20,10 +20,10 @@ It essentially runs a loop:
 
 Skills associated with this project are:
 
-* Familiarity with and using string processing functions in the C library.
-* Understanding and manipulating pointers to data.
-* C syntax and semantics.
-* Debugging a nontrivial C program.
+- Familiarity with and using string processing functions in the C library.
+- Understanding and manipulating pointers to data.
+- C syntax and semantics.
+- Debugging a nontrivial C program.
 
 ## example interaction
 
@@ -38,9 +38,9 @@ The structure of the project is as follows:
 1shell
 |-- doc                     -- references in this file
 |-- README.md               -- this file
-`-- src          
+`-- src
     |-- argument_test.c     -- test program for running relative path programs
-    |-- cwd.c               -- library function for command loop 
+    |-- cwd.c               -- library function for command loop
     |-- cwd.h               -- library function for command loop
     |-- environment_test.c  -- test program for running relative path programs
     |-- project1.c              -- main source code file
@@ -51,7 +51,7 @@ The source code for the project is in the `src` directory.
 
 ## features
 
-* Run programs, including programs that take command line arguments.
-* Allow a user to use `cd` to navigate the filesystem structure.
-* Keep a history of commands and allow the user to view their command history
+- Run programs, including programs that take command line arguments.
+- Allow a user to use `cd` to navigate the filesystem structure.
+- Keep a history of commands and allow the user to view their command history
   and optionally re-execute previously-executed commands.
