@@ -1,3 +1,5 @@
+/** @format */
+
 .personalbody {
   background-color: black;
 }
@@ -14,4 +16,145 @@
   width: 100%;
   height: auto;
   max-width: 1550px;
+}
+
+.carouselWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.carouselColumn {
+  width: 44%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.carouselColumn:nth-child(2) {
+  margin-top: calc(
+    29% * 0.44
+  ); /* Exact offset to vertically center based on container width (44%) */
+}
+
+.imageSliderContainer {
+  width: 100%;
+  position: relative;
+  padding-bottom: 75%; /* 4:3 aspect ratio for horizontal images */
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.verticalSlider {
+  padding-bottom: 133%; /* 3:4 aspect ratio for vertical images */
+}
+
+.imageSlider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideImage {
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 1.5s ease;
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.verticalImage {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.horizontalImage {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.slideImage:nth-child(1) {
+  opacity: 1;
+  z-index: 1;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    z-index: 0;
+  }
+  3% {
+    opacity: 1;
+    z-index: 1;
+  }
+  33% {
+    opacity: 1;
+    z-index: 1;
+  }
+  36% {
+    opacity: 0;
+    z-index: 0;
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+
+.slideImage {
+  animation: fadeInOut 24s infinite;
+}
+
+.slideImage:nth-child(1) {
+  animation-delay: 0s;
+}
+.slideImage:nth-child(2) {
+  animation-delay: 3s;
+}
+.slideImage:nth-child(3) {
+  animation-delay: 6s;
+}
+.slideImage:nth-child(4) {
+  animation-delay: 9s;
+}
+.slideImage:nth-child(5) {
+  animation-delay: 12s;
+}
+.slideImage:nth-child(6) {
+  animation-delay: 15s;
+}
+.slideImage:nth-child(7) {
+  animation-delay: 18s;
+}
+.slideImage:nth-child(8) {
+  animation-delay: 21s;
+}
+
+/* Add responsive styles for the carousel */
+@media (max-width: 800px) {
+  .carouselColumn {
+    width: 80%;
+  }
+
+  .carouselColumn:nth-child(2) {
+    margin-top: 0; /* Reset margin on small screens */
+  }
 }
