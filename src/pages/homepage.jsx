@@ -163,7 +163,9 @@ const Homepage = () => {
           />
           <br />
           <br />
-          <span style={{ color: "#f00" }}>Data and its Manipulation</span>
+          <span style={{ color: "rgb(100, 0, 255)" }}>
+            Data and its Manipulation
+          </span>
           <br />
           &nbsp; &nbsp; &nbsp; &nbsp;{" "}
           <i>How can you define life's instances?</i> — How can you formulate
@@ -179,7 +181,9 @@ const Homepage = () => {
           />
           <br />
           <br />
-          <span style={{ color: "#f00" }}>Design and Implementation</span>
+          <span style={{ color: "rgb(100, 0, 255)" }}>
+            Design and Implementation
+          </span>
           <br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A
           Living Contradiction; Splitting myself into pages. — these ideas are
@@ -202,7 +206,9 @@ const Homepage = () => {
           </video>
           <br />
           <br />
-          <span style={{ color: "#f00" }}>Music and the Visual Arts</span>
+          <span style={{ color: "rgb(100, 0, 255)" }}>
+            Music and the Visual Arts
+          </span>
           <br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic
           release of emotion. As humans, we are led to consume that which
@@ -226,7 +232,9 @@ const Homepage = () => {
           </video>
           <br />
           <br />
-          <span style={{ color: "#f00" }}>Personality and Drive</span>
+          <span style={{ color: "rgb(100, 0, 255)" }}>
+            Personality and Drive
+          </span>
           <br />
           &nbsp; &nbsp; &nbsp; &nbsp;{" "}
           <i>Driven, Easy-Going, Eager to Do Things</i> — It's tough to tell a

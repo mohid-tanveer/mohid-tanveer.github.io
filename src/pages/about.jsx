@@ -48,11 +48,59 @@ const About = () => {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
             <div className={styles.aboutimg} style={{ textAlign: "right" }}>
               <img src={ProfilePic} alt="Profile" />
+            </div>
+            <br />
+            <br />
+            <div className={styles.skillsSection}>
+              <div className={styles.skillsTitle}>Technical Skills</div>
+
+              <div className={styles.skillCategory}>
+                <span className={styles.categoryTitle}>
+                  Programming Languages
+                </span>
+                <div className={styles.skillsList}>
+                  <span className={styles.skillItem}>Python</span>
+                  <span className={styles.skillItem}>C</span>
+                  <span className={styles.skillItem}>Java</span>
+                  <span className={styles.skillItem}>JavaScript</span>
+                  <span className={styles.skillItem}>SQL</span>
+                  <span className={styles.skillItem}>HTML/CSS</span>
+                  <span className={styles.skillItem}>C++</span>
+                  <span className={styles.skillItem}>R</span>
+                </div>
+              </div>
+
+              <div className={styles.skillCategory}>
+                <span className={styles.categoryTitle}>
+                  Frameworks & Libraries
+                </span>
+                <div className={styles.skillsList}>
+                  <span className={styles.skillItem}>FastAPI</span>
+                  <span className={styles.skillItem}>React.js</span>
+                  <span className={styles.skillItem}>TensorFlow</span>
+                  <span className={styles.skillItem}>PyTorch</span>
+                  <span className={styles.skillItem}>NumPy</span>
+                  <span className={styles.skillItem}>SciPy</span>
+                  <span className={styles.skillItem}>Pandas</span>
+                  <span className={styles.skillItem}>Node.js</span>
+                  <span className={styles.skillItem}>librosa</span>
+                </div>
+              </div>
+
+              <div className={styles.skillCategory}>
+                <span className={styles.categoryTitle}>DevOps & Tools</span>
+                <div className={styles.skillsList}>
+                  <span className={styles.skillItem}>Git/GitHub</span>
+                  <span className={styles.skillItem}>Linux/Unix/GNU</span>
+                  <span className={styles.skillItem}>Docker</span>
+                  <span className={styles.skillItem}>Jupyter</span>
+                  <span className={styles.skillItem}>Anaconda</span>
+                  <span className={styles.skillItem}>Slurm</span>
+                  <span className={styles.skillItem}>Splunk</span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="grid-item5050">
@@ -69,10 +117,8 @@ const About = () => {
               master's student at UCSD studying Computer Science and a graduate
               from Rhodes College (class of 2025) with a BS in Computer Science.
               I am currently interested in AI/ML, data structures/algorithms,
-              and statistical methods—especially the effects applications of
-              such topics can have on our society and day to day lives. I am
-              advanced in Python; proficient in C, SQL, and Java; and
-              experienced in C++, HTML/CSS, JavaScript, Node.js/React.js, and R.
+              and statistical methods; especially the effects applications of
+              such topics can have on our society and day to day lives.
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; During my senior year at Rhodes, I worked at
@@ -94,30 +140,31 @@ const About = () => {
               <br />
               <br />
               &nbsp; &nbsp;&nbsp; Take your time and explore all of the parts of
-              this website and I hope you decide to reach out and learn more.
-              All content (images and videos) and work found on the site are
-              mine; inspiration from everywhere. Contact me using the links
-              below or the links in the site navigation.
+              this website and I invite you to reach out and learn more. All
+              content (images and videos) and work found on the site are mine;
+              inspiration from everywhere. Contact me using the links below or
+              the links in the site navigation.
             </span>
             <br />
             <br />
-            <div style={{ textAlign: "right" }}>
-              <span style={{ color: "#fff" }}>
-                <span style={{ color: "#f00" }}>
-                  <a href={Resume} rel="noopener noreferrer" target="_blank">
-                    <span style={{ color: "#f00" }}>Resume</span>
-                  </a>
-                </span>
-                &nbsp;{" "}
-                <a
-                  href="https://www.linkedin.com/in/mohidtanveer/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span style={{ color: "#f00" }}>Linkedin</span>
-                </a>
-              </span>
-              <br />
+            <div className={styles.cloudLinksContainer}>
+              <a
+                href={Resume}
+                rel="noopener noreferrer"
+                target="_blank"
+                className={styles.cloudLink}
+              >
+                Resume
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a
+                href="https://www.linkedin.com/in/mohidtanveer/"
+                rel="noopener noreferrer"
+                target="_blank"
+                className={styles.cloudLink}
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
         </div>

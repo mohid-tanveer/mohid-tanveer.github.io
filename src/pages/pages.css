@@ -25,7 +25,7 @@ body {
 }
 
 body a {
-  color: #f00;
+  color: rgb(100, 0, 255);
   padding-bottom: 0.05em;
   border-bottom: 0 solid rgba(127, 127, 127, 0.2);
   text-decoration: none;
