@@ -1,6 +1,6 @@
 /** @format */
 
-import { Analogsentimentalism, ProfilePic } from "../images"
+import { Analogsentimentalism, ProfilePic, Cloud } from "../images"
 import { analogsentimentalismVideoData } from "../videoData"
 import { Resume } from "../files"
 import { React, useEffect } from "react"
@@ -113,12 +113,13 @@ const About = () => {
               you that I would be that fit for your purposes.
               <br />
               <br />
-              &nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am an incoming
-              master's student at UCSD studying Computer Science and a graduate
-              from Rhodes College (class of 2025) with a BS in Computer Science.
-              I am currently interested in AI/ML, data structures/algorithms,
-              and statistical methods; especially the effects applications of
-              such topics can have on our society and day to day lives.
+              &nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am a current
+              master's student at UCSD studying Computer Science with a focus on
+              AI/ML and a graduate from Rhodes College (class of 2025) with a BS
+              in Computer Science. I am currently interested in AI/ML, data
+              structures/algorithms, and statistical methods; especially the
+              effects applications of such topics can have on our society and
+              day to day lives.
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; During my senior year at Rhodes, I worked at
@@ -153,15 +154,16 @@ const About = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 className={styles.cloudLink}
+                style={{ backgroundImage: `url(${Cloud})` }}
               >
                 Resume
               </a>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 href="https://www.linkedin.com/in/mohidtanveer/"
                 rel="noopener noreferrer"
                 target="_blank"
                 className={styles.cloudLink}
+                style={{ backgroundImage: `url(${Cloud})` }}
               >
                 LinkedIn
               </a>

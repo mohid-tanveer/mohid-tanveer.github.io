@@ -1,3 +1,5 @@
+/** @format */
+
 .aboutbody {
   background-color: rgb(22, 126, 222);
 }
@@ -160,220 +162,30 @@
 .cloudLink {
   position: relative;
   display: inline-block;
-  background: transparent;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   border: none;
-  padding: 12px 20px;
+  padding: 50px;
   font-size: 1rem;
   font-weight: 600;
-  color: #828282 !important;
+  color: #5b5b5b !important;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
   z-index: 10;
-  margin: 0.3rem 0.2rem;
+  margin: 0.3rem -1rem;
   text-align: center;
-}
-.cloudLink:first-child {
-  padding: 10px 25px;
-}
-
-.cloudLink:first-child::before {
-  content: "";
-  position: absolute;
-  top: 3px;
-  left: 5px;
-  width: 40px;
-  height: 24px;
-  background: radial-gradient(
-    ellipse at 30% 20%,
-    #ffffff 0%,
-    #fbfcfe 40%,
-    #eef2f7 100%
-  );
-  border-radius: 25px;
-  box-shadow:
-    /* top bright puffs */
-    28px -3px 0 6px #ffffff,
-    52px -1px 0 3px #f0f6fc,
-    /* upper layer with light shading */ 11px -13px 0 7px #ffffff,
-    32px -16px 0 10px #e8f0f8,
-    50px -13px 0 6px #f0f6fc,
-    /* middle layer */ -7px 6px 0 4px #f1f4f7,
-    20px 13px 0 6px #ffffff,
-    42px 11px 0 4px #e8f0f8,
-    58px 9px 0 5px #f0f6fc,
-    /* bottom darker shadows */ 3px 20px 0 3px #c0d0e0,
-    25px 23px 0 5px #d0dae8,
-    47px 21px 0 3px #d8e4f0,
-    /* edge details */ -3px -6px 0 3px #f0f6fc,
-    65px -2px 0 3px #e8f0f8,
-    16px -23px 0 4px #f0f6fc,
-    42px -20px 0 5px #ffffff,
-    /* left and right extensions */ -13px 1px 0 6px #e8f0f8,
-    68px 3px 0 4px #d8e4f0;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2))
     drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
-  z-index: -1;
-}
-
-.cloudLink:not(:first-child)::before {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 3px;
-  width: 36px;
-  height: 26px;
-  background: radial-gradient(
-    ellipse at 25% 15%,
-    #ffffff 0%,
-    #fbfcfe 35%,
-    #eef2f7 100%
-  );
-  border-radius: 30px;
-  box-shadow:
-    /* top bright layer */
-    24px -6px 0 6px #ffffff,
-    48px -3px 0 3px #f0f6fc,
-    67px -1px 0 4px #e8f0f8,
-    /* upper puffs */ 7px -15px 0 6px #ffffff,
-    30px -18px 0 9px #e8f0f8,
-    50px -16px 0 6px #f0f6fc,
-    /* middle section */ -6px 9px 0 5px #fafdff,
-    16px 15px 0 6px #ffffff,
-    37px 13px 0 4px #e8f0f8,
-    58px 11px 0 5px #f0f6fc,
-    /* bottom shadows */ 6px 26px 0 4px #c0d0e0,
-    28px 28px 0 6px #d0dae8,
-    50px 26px 0 3px #d8e4f0,
-    /* unique shape details */ -11px -3px 0 3px #f0f6fc,
-    71px 0px 0 3px #e8f0f8,
-    13px -26px 0 3px #f0f6fc,
-    39px -24px 0 4px #ffffff,
-    /* asymmetric extensions */ -16px 6px 0 6px #e8f0f8,
-    75px 6px 0 5px #d8e4f0;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2))
-    drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
-  z-index: -1;
-}
-
-.cloudLink:first-child::after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 18px;
-  width: 24px;
-  height: 18px;
-  background: radial-gradient(
-    ellipse at 20% 10%,
-    #ffffff 0%,
-    #fbfcfe 30%,
-    #f1f4f7 100%
-  );
-  border-radius: 20px;
-  box-shadow:
-    /* bright top layer */
-    16px -6px 0 4px #ffffff,
-    35px -4px 0 3px #f0f6fc,
-    /* upper details */ 6px -11px 0 3px #ffffff,
-    26px -13px 0 6px #e8f0f8,
-    42px -11px 0 3px #f0f6fc,
-    /* middle puffs */ -6px 7px 0 5px #f1f4f7,
-    13px 11px 0 4px #ffffff,
-    30px 9px 0 3px #e8f0f8,
-    47px 7px 0 3px #f0f6fc,
-    /* bottom shadows */ 3px 18px 0 3px #e8ecf0,
-    22px 20px 0 4px #eef2f7,
-    40px 18px 0 3px #f1f4f7,
-    /* edge variations */ -9px -1px 0 3px #f0f6fc,
-    52px 1px 0 3px #e8f0f8,
-    11px -18px 0 3px #f0f6fc;
-  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.15));
-  z-index: -2;
-}
-
-.cloudLink:not(:first-child)::after {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: 15px;
-  width: 26px;
-  height: 21px;
-  background: radial-gradient(
-    ellipse at 15% 8%,
-    #ffffff 0%,
-    #fbfcfe 25%,
-    #f1f4f7 100%
-  );
-  border-radius: 24px;
-  box-shadow:
-    /* bright highlights */
-    18px -7px 0 5px #ffffff,
-    38px -6px 0 3px #f0f6fc,
-    55px -3px 0 3px #e8f0f8,
-    /* upper cloud formation */ 3px -13px 0 4px #ffffff,
-    24px -16px 0 6px #e8f0f8,
-    44px -14px 0 4px #f0f6fc,
-    /* middle layer */ -7px 9px 0 6px #f1f4f7,
-    15px 13px 0 5px #ffffff,
-    35px 12px 0 3px #e8f0f8,
-    53px 9px 0 4px #f0f6fc,
-    /* shadow layer */ 6px 22px 0 3px #e8ecf0,
-    26px 24px 0 5px #eef2f7,
-    45px 22px 0 3px #f1f4f7,
-    /* distinctive features */ -11px -6px 0 3px #f0f6fc,
-    59px -1px 0 4px #e8f0f8,
-    9px -22px 0 3px #f0f6fc,
-    33px -20px 0 3px #ffffff;
-  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.15));
-  z-index: -2;
 }
 
 .cloudLink:hover {
   transform: translateY(-5px);
   color: #4a4949 !important;
   text-shadow: 0 1px 3px rgba(255, 255, 255, 0.9);
-}
-
-.cloudLink:first-child:hover::before {
   filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.25))
     drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
-  background: radial-gradient(
-    ellipse at 30% 20%,
-    #ffffff 0%,
-    #fbfcfe 40%,
-    #eef2f7 100%
-  );
-}
-
-.cloudLink:not(:first-child):hover::before {
-  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.25))
-    drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
-  background: radial-gradient(
-    ellipse at 25% 15%,
-    #ffffff 0%,
-    #fbfcfe 35%,
-    #eef2f7 100%
-  );
-}
-
-.cloudLink:first-child:hover::after {
-  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2));
-  background: radial-gradient(
-    ellipse at 20% 10%,
-    #ffffff 0%,
-    #fbfcfe 30%,
-    #f1f4f7 100%
-  );
-}
-
-.cloudLink:not(:first-child):hover::after {
-  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2));
-  background: radial-gradient(
-    ellipse at 15% 8%,
-    #ffffff 0%,
-    #fbfcfe 25%,
-    #f1f4f7 100%
-  );
 }
 
 .cloudLink:active {
@@ -389,53 +201,12 @@
 @media (max-width: 768px) {
   .cloudLink {
     font-size: 0.8rem;
-    padding: 8px 16px;
-    margin: 0.3rem 0.2rem;
-  }
-
-  .cloudLink:first-child {
-    padding: 6px 19px;
+    padding: 40px;
+    margin: 0.3rem 0;
   }
 
   .cloudLinksContainer {
     text-align: center;
     margin-top: 1.5rem;
-  }
-
-  /* scale down cloud elements for mobile */
-  .cloudLink:first-child::before {
-    width: 32px;
-    height: 19px;
-    top: 2px;
-    left: 3px;
-    border-radius: 20px;
-    transform: scale(0.8);
-  }
-
-  .cloudLink:not(:first-child)::before {
-    width: 29px;
-    height: 21px;
-    top: 1px;
-    left: 2px;
-    border-radius: 24px;
-    transform: scale(0.8);
-  }
-
-  .cloudLink:first-child::after {
-    width: 19px;
-    height: 14px;
-    top: 0px;
-    left: 14px;
-    border-radius: 16px;
-    transform: scale(0.8);
-  }
-
-  .cloudLink:not(:first-child)::after {
-    width: 21px;
-    height: 17px;
-    top: -1px;
-    left: 12px;
-    border-radius: 19px;
-    transform: scale(0.8);
   }
 }
