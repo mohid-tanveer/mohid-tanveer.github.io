@@ -17,9 +17,8 @@ import Hamburger from "./hamburger.png"
 import ProfilePic from "./profile.png"
 import Analogsentimentalism from "./analog sentimentalism.mp4"
 import AnalogsentimentalismThumbnail from "./analog sentimentalism.png"
-import Music from "./music.mp4"
-import MusicThumbnail from "./music.png"
-import Design from "./design.png"
+import Music from "./music.jpg"
+import Design from "./design.jpg"
 import Data from "./filtered_data.png"
 import Slide1 from "./slide1.jpg"
 import Slide2 from "./slide2.jpg"
@@ -64,7 +63,6 @@ export {
   ReceiptifyImg,
   ReceiptifyVid,
   Music,
-  MusicThumbnail,
   Design,
   Data,
   Arrow,

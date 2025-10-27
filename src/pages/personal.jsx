@@ -1,7 +1,6 @@
 /** @format */
 
 import { Data, Design, Music, slideImages, horizSlideImages } from "../images"
-import { musicVideoData } from "../videoData"
 import styles from "./personal.module.css"
 import { React, useEffect } from "react"
 import "./pages.css"
@@ -85,18 +84,7 @@ const Personal = () => {
           <br />
           <br />
           <br />
-          <video
-            className={styles.personalvideo}
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src={Music} type="video/mp4" />
-            <script type="application/ld+json">
-              {JSON.stringify(musicVideoData)}
-            </script>
-          </video>
+          <img className={styles.personalimg} src={Music} alt="Music" />
           <br />
           <br />
           <br />

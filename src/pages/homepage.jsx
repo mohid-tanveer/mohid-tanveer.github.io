@@ -11,7 +11,6 @@ import {
   Music,
   Data,
 } from "../images"
-import { musicVideoData } from "../videoData"
 import styles from "./homepage.module.css"
 import { React, useEffect, useRef } from "react"
 import "./pages.css"
@@ -91,20 +90,6 @@ const Homepage = () => {
         </Link>
         <br />
         April 2023
-        <br />
-        <br />
-        <br />
-        <Link to="/work/dijkstras">
-          <img
-            className={styles.homepageimg}
-            src={DijkstrasImg}
-            alt="It’s just Dijkstra’s?"
-          />
-          <br />
-          It’s just Dijkstra’s? - Racket
-        </Link>
-        <br />
-        March 2023
         <br />
         <br />
         <br />
@@ -189,18 +174,7 @@ const Homepage = () => {
           <br />
           <br />
           <br />
-          <video
-            className={styles.homepagevideo}
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src={Music} type="video/mp4" />
-            <script type="application/ld+json">
-              {JSON.stringify(musicVideoData)}
-            </script>
-          </video>
+          <img className={styles.homepageimg} src={Music} alt="Music" />
           <br />
           <br />
           <span style={{ color: "rgb(100, 0, 255)" }}>

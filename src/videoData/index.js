@@ -1,24 +1,11 @@
 /** @format */
 
 import {
-  MusicThumbnail,
-  Music,
   AutocorrectVid,
   AutocorrectThumbnail,
   Analogsentimentalism,
   AnalogsentimentalismThumbnail,
 } from "../images"
-
-export const musicVideoData = {
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  name: "Music and the Visual Arts",
-  description: "Video shows me doing karaoke to a song that I made.",
-  thumbnailUrl: MusicThumbnail,
-  contentUrl: Music,
-  uploadDate: "2023-07-12T04:18:00Z",
-  duration: "PT0M20S",
-}
 
 export const autocorrectVideoData = {
   "@context": "https://schema.org",
