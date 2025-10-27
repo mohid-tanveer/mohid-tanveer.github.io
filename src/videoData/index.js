@@ -1,13 +1,13 @@
+/** @format */
+
 import {
   MusicThumbnail,
   Music,
-  PhotocompThumbnail,
-  Photocomp,
   AutocorrectVid,
   AutocorrectThumbnail,
   Analogsentimentalism,
   AnalogsentimentalismThumbnail,
-} from "../images";
+} from "../images"
 
 export const musicVideoData = {
   "@context": "https://schema.org",
@@ -18,19 +18,7 @@ export const musicVideoData = {
   contentUrl: Music,
   uploadDate: "2023-07-12T04:18:00Z",
   duration: "PT0M20S",
-};
-
-export const personalityVideoData = {
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  name: "Personality and Drive",
-  description:
-    "Video is a compilation of photos of me and some with my friends.",
-  thumbnailUrl: PhotocompThumbnail,
-  contentUrl: Photocomp,
-  uploadDate: "2023-07-12T04:18:00Z",
-  duration: "PT0M45S",
-};
+}
 
 export const autocorrectVideoData = {
   "@context": "https://schema.org",
@@ -42,7 +30,7 @@ export const autocorrectVideoData = {
   contentUrl: AutocorrectVid,
   uploadDate: "2023-07-12T04:18:00Z",
   duration: "PT0M15S",
-};
+}
 
 export const analogsentimentalismVideoData = {
   "@context": "https://schema.org",
@@ -54,4 +42,4 @@ export const analogsentimentalismVideoData = {
   contentUrl: Analogsentimentalism,
   uploadDate: "2023-07-12T04:18:00Z",
   duration: "PT0M6S",
-};
+}

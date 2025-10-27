@@ -109,17 +109,16 @@ const About = () => {
               company they keep; the people they collaborate with socially and
               professionally. You want to work with people who are adaptable,
               but also have a strong sense of self, driving you creatively and
-              motivating you to innovate. Hear what I have to offer and I assure
-              you that I would be that fit for your purposes.
+              motivating you to innovate.
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am a current
               master's student at UCSD studying Computer Science with a focus on
               AI/ML and a graduate from Rhodes College (class of 2025) with a BS
-              in Computer Science. I am currently interested in AI/ML, data
-              structures/algorithms, and statistical methods; especially the
-              effects applications of such topics can have on our society and
-              day to day lives.
+              in Computer Science. I am currently interested in recommendation
+              systems, probabilistic modeling, and statistical methods;
+              especially the effects applications of such topics can have in
+              easing and improving our day to day lives and interactions.
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; During my senior year at Rhodes, I worked at
@@ -131,20 +130,17 @@ const About = () => {
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; I am the kind of person who loves to learn
-              new skills and refine them. Nothing is perfect, everything is an
-              unfinished project; you can always improve. You will find evidence
-              of this idea on this website.
+              new skills and refine them. I think that nothing is ever perfect,
+              and everything is an unfinished project.
               <br />
               &nbsp; &nbsp; &nbsp; I pride myself as an organized person, I like
-              to keep everything in scope and work on things in parts;
+              to keep everything in scope and work on things in parts,
               considering all the possibilities.
               <br />
               <br />
-              &nbsp; &nbsp;&nbsp; Take your time and explore all of the parts of
-              this website and I invite you to reach out and learn more. All
-              content (images and videos) and work found on the site are mine;
-              inspiration from everywhere. Contact me using the links below or
-              the links in the site navigation.
+              &nbsp; &nbsp;&nbsp; All content (images and videos) and work found
+              on the site are mine; inspiration from everywhere. Contact me
+              using the links below or the links in the site navigation.
             </span>
             <br />
             <br />

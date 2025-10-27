@@ -10,9 +10,8 @@ import {
   Design,
   Music,
   Data,
-  Photocomp,
 } from "../images"
-import { musicVideoData, personalityVideoData } from "../videoData"
+import { musicVideoData } from "../videoData"
 import styles from "./homepage.module.css"
 import { React, useEffect, useRef } from "react"
 import "./pages.css"
@@ -169,8 +168,7 @@ const Homepage = () => {
           <br />
           &nbsp; &nbsp; &nbsp; &nbsp;{" "}
           <i>How can you define life's instances?</i> — How can you formulate
-          extrapolations for these instances? — consideration of the most basic
-          forms and analysis of everything. <br />
+          extrapolations for these instances? <br />
           <br />
           <br />
           <br />
@@ -186,9 +184,8 @@ const Homepage = () => {
           </span>
           <br />
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A
-          Living Contradiction; Splitting myself into pages. — these ideas are
-          the inspiration for this site. — a clash of variables, beauty in
-          simplified layers. <br />
+          Living Contradiction; a clash of variables, beauty in nested layers.{" "}
+          <br />
           <br />
           <br />
           <br />
@@ -213,34 +210,7 @@ const Homepage = () => {
           &nbsp; &nbsp; &nbsp; &nbsp; <i>Create and Consume</i> — A cathartic
           release of emotion. As humans, we are led to consume that which
           targets our senses and emotions. Since these forms of media are the
-          most accessible, they are also the most powerful.
-          <br />
-          <br />
-          <br />
-          <br />
-          <video
-            className={styles.homepagevideo}
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src={Photocomp} type="video/mp4" />
-            <script type="application/ld+json">
-              {JSON.stringify(personalityVideoData)}
-            </script>
-          </video>
-          <br />
-          <br />
-          <span style={{ color: "rgb(100, 0, 255)" }}>
-            Personality and Drive
-          </span>
-          <br />
-          &nbsp; &nbsp; &nbsp; &nbsp;{" "}
-          <i>Driven, Easy-Going, Eager to Do Things</i> — It's tough to tell a
-          person's true personality through only words on a screen. Visuals tend
-          to speak louder to me.
-          <br />
+          most accessible, I believe they are also the most powerful.
           <br />
           <br />
           <br />

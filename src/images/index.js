@@ -12,8 +12,6 @@ import rrImg from "./rr.png"
 import WebsiteImg from "./website.png"
 import ReceiptifyImg from "./receiptify.png"
 import ReceiptifyVid from "./receiptify.mp4"
-import Photocomp from "./photocomp.mp4"
-import PhotocompThumbnail from "./photocomp.png"
 import Arrow from "./-113.png"
 import Hamburger from "./hamburger.png"
 import ProfilePic from "./profile.png"
@@ -65,8 +63,6 @@ export {
   WebsiteImg,
   ReceiptifyImg,
   ReceiptifyVid,
-  Photocomp,
-  PhotocompThumbnail,
   Music,
   MusicThumbnail,
   Design,
