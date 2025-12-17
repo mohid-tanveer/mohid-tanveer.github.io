@@ -1,11 +1,8 @@
-/** @format */
-
 import {
-  ShellImg,
-  DijkstrasImg,
-  RacketImg,
-  HashImg,
-  ReceiptifyImg,
+  ragsImg,
+  tubifyImg,
+  basketballImg,
+  rephotoImg,
   rrImg,
   Design,
   Music,
@@ -42,6 +39,54 @@ const Homepage = () => {
         <br />
         <br />
         <br />
+        <Link to="/work/tubify">
+          <img className={styles.homepageimg} src={tubifyImg} alt="Tubify" />
+          <br />
+          Tubify - Typescript/React.js/Python/SQL
+        </Link>
+        <br />
+        April 2025
+        <br />
+        <br />
+        <Link to="/work/rags">
+          <img
+            className={styles.homepageimg}
+            src={ragsImg}
+            alt="From RAGs to Riches"
+          />
+          <br />
+          From RAGs to Riches - Python/Typescript
+        </Link>
+        <br />
+        May 2025
+        <br />
+        <br />
+        <Link to="/work/basketball">
+          <img
+            className={styles.homepageimg}
+            src={basketballImg}
+            alt="Ball don't lie"
+          />
+          <br />
+          Ball don't lie - Python
+        </Link>
+        <br />
+        December 2025
+        <br />
+        <br />
+        <Link to="/work/rephoto">
+          <img
+            className={styles.homepageimg}
+            src={rephotoImg}
+            alt="ScreenSense"
+          />
+          <br />
+          ScreenSense - Python
+        </Link>
+        <br />
+        December 2025
+        <br />
+        <br />
         <Link to="/work/rr">
           <img className={styles.homepageimg} src={rrImg} alt="#RR" />
           <br />
@@ -49,61 +94,6 @@ const Homepage = () => {
         </Link>
         <br />
         May 2023
-        <br />
-        <br />
-        <br />
-        <Link to="/work/receiptify">
-          <img
-            className={styles.homepageimg}
-            src={ReceiptifyImg}
-            alt="I need REST."
-          />
-          <br />I need REST. - React.js/Python/HTML/CSS
-        </Link>
-        <br />
-        July 2023
-        <br />
-        <br />
-        <br />
-        <Link to="/work/hash">
-          <img
-            className={styles.homepageimg}
-            src={HashImg}
-            alt="Where's the Hash?"
-          />
-          <br />
-          Where's the Hash? - C
-        </Link>
-        <br />
-        April 2023
-        <br />
-        <br />
-        <br />
-        <Link to="/work/racket">
-          <img
-            className={styles.homepageimg}
-            src={RacketImg}
-            alt="What’s that Racket?"
-          />
-          <br />
-          What’s that Racket? - Java
-        </Link>
-        <br />
-        April 2023
-        <br />
-        <br />
-        <br />
-        <Link to="/work/blueshell">
-          <img
-            className={styles.homepageimg}
-            src={ShellImg}
-            alt="Blue Shell!"
-          />
-          <br />
-          Blue Shell! - C
-        </Link>
-        <br />
-        Feb 2023
         <br />
         <br />
         <br />
@@ -142,12 +132,28 @@ const Homepage = () => {
           <br />
           <img
             className={styles.homepageimg}
+            src={Design}
+            alt="Design and Implementation"
+          />
+          <br />
+          <br />
+          <span style={{ color: "rgb(140, 60, 255)" }}>
+            Design and Implementation
+          </span>
+          <br />
+          &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A
+          Living Contradiction; a clash of variables, beauty in nested layers.{" "}
+          <br />
+          <br />
+          <br />
+          <img
+            className={styles.homepageimg}
             src={Data}
             alt="Data and its Manipulation!"
           />
           <br />
           <br />
-          <span style={{ color: "rgb(100, 0, 255)" }}>
+          <span style={{ color: "rgb(140, 60, 255)" }}>
             Data and its Manipulation
           </span>
           <br />
@@ -157,27 +163,11 @@ const Homepage = () => {
           <br />
           <br />
           <br />
-          <img
-            className={styles.homepageimg}
-            src={Design}
-            alt="Design and Implementation"
-          />
-          <br />
-          <br />
-          <span style={{ color: "rgb(100, 0, 255)" }}>
-            Design and Implementation
-          </span>
-          <br />
-          &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A
-          Living Contradiction; a clash of variables, beauty in nested layers.{" "}
-          <br />
-          <br />
-          <br />
           <br />
           <img className={styles.homepageimg} src={Music} alt="Music" />
           <br />
           <br />
-          <span style={{ color: "rgb(100, 0, 255)" }}>
+          <span style={{ color: "rgb(140, 60, 255)" }}>
             Music and the Visual Arts
           </span>
           <br />
@@ -190,7 +180,11 @@ const Homepage = () => {
           <br />
           <br />
           <div style={{ textAlign: "center" }}>
-            <Link to="/personal">VIEW PERSONAL PAGE</Link>
+            <Link to="/personal">
+              <span style={{ color: "rgb(140, 60, 255)" }}>
+                VIEW PERSONAL PAGE
+              </span>
+            </Link>
             <br />
             <br />
             <br />

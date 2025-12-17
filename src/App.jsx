@@ -1,5 +1,3 @@
-/** @format */
-
 import "./App.css"
 import {
   createHashRouter,
@@ -7,17 +5,16 @@ import {
   useLocation,
   Outlet,
 } from "react-router-dom"
-import { Homepage, Work, Personal, About } from "./pages"
+import { Homepage, Work, Personal, PersonalGallery, About } from "./pages"
 import {
-  Sentiment,
-  Duckingautocorrect,
   Blueshell,
-  Dijkstras,
-  Racket,
-  Hash,
   RR,
   Website,
   Receiptify,
+  Tubify,
+  Rephoto,
+  Basketball,
+  Rags,
 } from "./pages/work-pages"
 
 function AppLayout() {
@@ -28,7 +25,8 @@ function AppLayout() {
     if (currentPath === "/about") return "aboutme"
     if (currentPath === "/work" || currentPath.startsWith("/work/"))
       return "work"
-    if (currentPath === "/personal") return "personal"
+    if (currentPath === "/personal" || currentPath.startsWith("/personal/"))
+      return "personal"
     return ""
   }
 
@@ -47,16 +45,16 @@ const router = createHashRouter([
       { index: true, element: <Homepage /> },
       { path: "work", element: <Work /> },
       { path: "personal", element: <Personal /> },
+      { path: "personal/gallery", element: <PersonalGallery /> },
       { path: "about", element: <About /> },
-      { path: "work/sentiment", element: <Sentiment /> },
-      { path: "work/duckingautocorrect", element: <Duckingautocorrect /> },
       { path: "work/blueshell", element: <Blueshell /> },
-      { path: "work/dijkstras", element: <Dijkstras /> },
-      { path: "work/racket", element: <Racket /> },
-      { path: "work/hash", element: <Hash /> },
       { path: "work/rr", element: <RR /> },
       { path: "work/website", element: <Website /> },
       { path: "work/receiptify", element: <Receiptify /> },
+      { path: "work/tubify", element: <Tubify /> },
+      { path: "work/rephoto", element: <Rephoto /> },
+      { path: "work/basketball", element: <Basketball /> },
+      { path: "work/rags", element: <Rags /> },
     ],
   },
 ])

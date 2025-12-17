@@ -1,0 +1,125 @@
+.page {
+  background-color: rgb(0, 0, 0);
+}
+
+.content {
+  word-break: break-word;
+  padding-left: 5dvw;
+  padding-right: 5dvw;
+  padding-top: 9dvh;
+  padding-bottom: 6dvh;
+}
+
+.headerRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.backLink {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.2rem;
+}
+
+.subhead {
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.gallery {
+  column-count: 3;
+  column-gap: 18px;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+.tile {
+  break-inside: avoid;
+  width: 100%;
+  display: block;
+  margin: 0 0 18px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+}
+
+.tile:hover .img,
+.tile:focus-visible .img {
+  opacity: 0.92;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.modal {
+  position: relative;
+  max-width: min(1300px, 100%);
+  max-height: 90vh;
+}
+
+.modalMedia {
+  position: relative;
+}
+
+.modalImg {
+  display: block;
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 4px;
+}
+
+.modalThumb {
+  display: block;
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 4px;
+  filter: blur(10px);
+  transform: scale(1.01);
+}
+
+.closeButton {
+  position: absolute;
+  right: 0;
+  top: -44px;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.92);
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 650px) {
+  .gallery {
+    column-count: 1;
+  }
+}

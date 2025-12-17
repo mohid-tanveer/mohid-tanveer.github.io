@@ -1,6 +1,4 @@
-/** @format */
-
-import { Analogsentimentalism, ProfilePic, Cloud } from "../images"
+import { Analogsentimentalism, profilePic, Cloud } from "../images"
 import { analogsentimentalismVideoData } from "../videoData"
 import { Resume } from "../files"
 import { React, useEffect } from "react"
@@ -49,7 +47,7 @@ const About = () => {
             <br />
             <br />
             <div className={styles.aboutimg} style={{ textAlign: "right" }}>
-              <img src={ProfilePic} alt="Profile" />
+              <img src={profilePic} alt="Profile" />
             </div>
             <br />
             <br />
@@ -65,10 +63,12 @@ const About = () => {
                   <span className={styles.skillItem}>C</span>
                   <span className={styles.skillItem}>Java</span>
                   <span className={styles.skillItem}>JavaScript</span>
+                  <span className={styles.skillItem}>TypeScript</span>
                   <span className={styles.skillItem}>SQL</span>
-                  <span className={styles.skillItem}>HTML/CSS</span>
                   <span className={styles.skillItem}>C++</span>
                   <span className={styles.skillItem}>R</span>
+                  <span className={styles.skillItem}>Bash</span>
+                  <span className={styles.skillItem}>HTML/CSS</span>
                 </div>
               </div>
 
@@ -77,15 +77,19 @@ const About = () => {
                   Frameworks & Libraries
                 </span>
                 <div className={styles.skillsList}>
-                  <span className={styles.skillItem}>FastAPI</span>
-                  <span className={styles.skillItem}>React.js</span>
                   <span className={styles.skillItem}>TensorFlow</span>
                   <span className={styles.skillItem}>PyTorch</span>
+                  <span className={styles.skillItem}>PySpark</span>
+                  <span className={styles.skillItem}>Apache Spark</span>
                   <span className={styles.skillItem}>NumPy</span>
                   <span className={styles.skillItem}>SciPy</span>
                   <span className={styles.skillItem}>Pandas</span>
+                  <span className={styles.skillItem}>Matplotlib</span>
+                  <span className={styles.skillItem}>React.js</span>
                   <span className={styles.skillItem}>Node.js</span>
                   <span className={styles.skillItem}>librosa</span>
+                  <span className={styles.skillItem}>FastAPI</span>
+                  <span className={styles.skillItem}>Flask</span>
                 </div>
               </div>
 
@@ -93,10 +97,18 @@ const About = () => {
                 <span className={styles.categoryTitle}>DevOps & Tools</span>
                 <div className={styles.skillsList}>
                   <span className={styles.skillItem}>Git/GitHub</span>
-                  <span className={styles.skillItem}>Linux/Unix/GNU</span>
+                  <span className={styles.skillItem}>Linux/Unix/GNU/RHEL</span>
                   <span className={styles.skillItem}>Docker</span>
+                  <span className={styles.skillItem}>Kubernetes</span>
                   <span className={styles.skillItem}>Jupyter</span>
                   <span className={styles.skillItem}>Anaconda</span>
+                  <span className={styles.skillItem}>Microsoft Power BI</span>
+                  <span className={styles.skillItem}>
+                    Amazon Web Services (AWS)
+                  </span>
+                  <span className={styles.skillItem}>Microsoft Azure</span>
+                  <span className={styles.skillItem}>PostgreSQL</span>
+                  <span className={styles.skillItem}>Virtual Machines</span>
                   <span className={styles.skillItem}>Slurm</span>
                   <span className={styles.skillItem}>Splunk</span>
                 </div>
@@ -140,7 +152,7 @@ const About = () => {
               <br />
               &nbsp; &nbsp;&nbsp; All content (images and videos) and work found
               on the site are mine; inspiration from everywhere. Contact me
-              using the links below or the links in the site navigation.
+              using the links below or in the top right corner.
             </span>
             <br />
             <br />

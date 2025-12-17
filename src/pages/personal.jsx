@@ -1,26 +1,15 @@
-/** @format */
-
-import { Data, Design, Music, slideImages, horizSlideImages } from "../images"
+import { Data, Design, Music } from "../images"
 import styles from "./personal.module.css"
 import { React, useEffect } from "react"
 import "./pages.css"
 import { Topnav, Bottomnav, Mobilenav } from "../components"
 import classNames from "classnames"
+import { Link } from "react-router-dom"
 
 const Personal = () => {
   useEffect(() => {
     document.title = "personal info - mohid tanveer portfolio"
     window.scrollTo(0, 0)
-
-    const preloadImages = (images) => {
-      images.forEach((image) => {
-        const img = new Image()
-        img.src = image
-      })
-    }
-
-    preloadImages(slideImages)
-    preloadImages(horizSlideImages)
   }, [])
 
   const personalPage = classNames(styles.personalbody, "interestsblog")
@@ -42,12 +31,32 @@ const Personal = () => {
         <span style={{ color: "rgba(255, 255, 255, 0.65)" }}>
           <img
             className={styles.personalimg}
+            src={Design}
+            alt="Design and Implementation"
+          />
+          <br />
+          <br />
+          <span style={{ color: "rgb(140, 60, 255)" }}>
+            Design and Implementation
+          </span>
+          <br />
+          &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A
+          Living Contradiction; a clash of variables, beauty in nested layers.{" "}
+          <br />
+          &nbsp; &nbsp; &nbsp; &nbsp; When creating I like to be deliberate and
+          thoughtful in what I do, I want everything to have its meaning and
+          place within the whole. To create something that stimulates minds
+          <br />
+          <br />
+          <br />
+          <img
+            className={styles.personalimg}
             src={Data}
             alt="Data and its Manipulation"
           />
           <br />
           <br />
-          <span style={{ color: "rgb(100, 0, 255)" }}>
+          <span style={{ color: "rgb(140, 60, 255)" }}>
             Data and its Manipulation
           </span>
           <br />
@@ -64,31 +73,11 @@ const Personal = () => {
           <br />
           <br />
           <br />
-          <img
-            className={styles.personalimg}
-            src={Design}
-            alt="Design and Implementation"
-          />
-          <br />
-          <br />
-          <span style={{ color: "rgb(100, 0, 255)" }}>
-            Design and Implementation
-          </span>
-          <br />
-          &nbsp; &nbsp; &nbsp; &nbsp; <i>Minimalistic, yet Complex?</i> — A
-          Living Contradiction; a clash of variables, beauty in nested layers.{" "}
-          <br />
-          &nbsp; &nbsp; &nbsp; &nbsp; When creating I like to be deliberate and
-          thoughtful in what I do, I want everything to have its meaning and
-          place within the whole. To create something that stimulates minds
-          <br />
-          <br />
-          <br />
           <img className={styles.personalimg} src={Music} alt="Music" />
           <br />
           <br />
           <br />
-          <span style={{ color: "rgb(100, 0, 255)" }}>
+          <span style={{ color: "rgb(140, 60, 255)" }}>
             Music and the Visual Arts
           </span>
           <br />
@@ -107,44 +96,12 @@ const Personal = () => {
           <br />
           <br />
           <br />
-          <div className={styles.carouselWrapper}>
-            <div className={styles.carouselColumn}>
-              <div
-                className={`${styles.imageSliderContainer} ${styles.verticalSlider}`}
-              >
-                <div className={styles.imageSlider}>
-                  {slideImages.map((slideImage, index) => (
-                    <img
-                      key={index}
-                      src={slideImage}
-                      alt={`Slide ${index + 1}`}
-                      className={`${styles.slideImage} ${styles.verticalImage}`}
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div className={styles.carouselColumn}>
-              <div className={styles.imageSliderContainer}>
-                <div className={styles.imageSlider}>
-                  {horizSlideImages.map((slideImage, index) => (
-                    <img
-                      key={index}
-                      src={slideImage}
-                      alt={`Slide ${index + 1}`}
-                      className={`${styles.slideImage} ${styles.horizontalImage}`}
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
-          <br />
-          <span style={{ color: "rgb(100, 0, 255)" }}>Photography</span>
+          <span style={{ color: "rgb(140, 60, 255)" }}>Photography</span>
           <br />
           &nbsp; &nbsp; &nbsp; &nbsp;{" "}
-          <i>Sample of Some Pictures I Have Taken</i>
+          <Link className={styles.galleryCta} to="/personal/gallery">
+            Sample of Some Pictures I Have Taken
+          </Link>
           <br />
           <br />
           <br />

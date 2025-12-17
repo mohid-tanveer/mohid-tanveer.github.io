@@ -2,8 +2,6 @@
 
 ## introduction
 
-Initial project files provided by Marion Lang (@ml8).
-
 In this project, I wrote a clone of the "popular" [Yik Yak
 app](https://yikyak.com/) using sockets and threads, _Rhodes Ramble_.
 
@@ -88,7 +86,7 @@ boxes and the server components are represented with red.
 Solid arrows denote interactions via function calls, while dotted arrow
 represent interactions over sockets with the Rhodes Ramble protocol.
 
-![Rhodes Ramble Architecture Diagram](doc/rhodes_ramble_arch.png)
+![Rhodes Ramble Architecture Diagram](/public/rhodes_ramble_arch.png)
 
 The client process was divided into two components: the frontend UI
 (`rr_console_client.c` or `rr_curses_client.c`) and the _client library_

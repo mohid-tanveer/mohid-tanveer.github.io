@@ -1,21 +1,10 @@
-import Sentiment from "./sentiment";
-import Duckingautocorrect from "./duckingautocorrect";
-import Blueshell from "./shell";
-import Dijkstras from "./dijkstras";
-import Racket from "./racket";
-import Hash from "./hash";
-import RR from "./rr";
-import Website from "./website";
-import Receiptify from "./receiptify";
+import Blueshell from "./shell"
+import RR from "./rr"
+import Website from "./website"
+import Receiptify from "./receiptify"
+import Tubify from "./tubify"
+import Rephoto from "./rephoto"
+import Basketball from "./basketball"
+import Rags from "./rags"
 
-export {
-  Sentiment,
-  Duckingautocorrect,
-  Blueshell,
-  Dijkstras,
-  Racket,
-  Hash,
-  RR,
-  Website,
-  Receiptify,
-};
+export { Blueshell, RR, Website, Receiptify, Tubify, Rephoto, Basketball, Rags }

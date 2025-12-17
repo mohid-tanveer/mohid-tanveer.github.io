@@ -1,6 +1,7 @@
-import Homepage from "./homepage";
-import About from "./about";
-import Personal from "./personal";
-import Work from "./work";
+import Homepage from "./homepage"
+import About from "./about"
+import Personal from "./personal"
+import PersonalGallery from "./personal-gallery"
+import Work from "./work"
 
-export { Homepage, About, Personal, Work };
+export { Homepage, About, Personal, PersonalGallery, Work }
