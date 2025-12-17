@@ -6,7 +6,7 @@ import { Topnav, Bottomnav, Worknav, Mobilenav } from "../../components"
 
 const Rags = () => {
   useEffect(() => {
-    document.title = "hpcGPT - mohid tanveer portfolio"
+    document.title = "From RAGs to Riches - mohid tanveer portfolio"
     window.scrollTo(0, 0)
   }, [])
 
