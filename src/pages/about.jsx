@@ -51,6 +51,8 @@ const About = () => {
             </div>
             <br />
             <br />
+            {window.innerWidth > 1024 && <br />}
+            {window.innerWidth > 1024 && <br />}
             <div className={styles.skillsSection}>
               <div className={styles.skillsTitle}>Technical Skills</div>
 
