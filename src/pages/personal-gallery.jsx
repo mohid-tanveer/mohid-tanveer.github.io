@@ -114,13 +114,6 @@ const PersonalGallery = () => {
           }}
         >
           <div className={styles.modal}>
-            <button
-              type="button"
-              className={styles.closeButton}
-              onClick={() => setActiveImage(null)}
-            >
-              close
-            </button>
             <div className={styles.modalMedia}>
               {!isFullImageLoaded ? (
                 <img
