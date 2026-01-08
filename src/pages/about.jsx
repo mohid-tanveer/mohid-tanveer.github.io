@@ -136,11 +136,11 @@ const About = () => {
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; During my senior year at Rhodes, I worked at
-              St. Jude Children's Research Hospital as a Student AI Engineer
-              with the High Performance Computing group. I also served as a peer
-              tutor with the Rhodes CS Department during my last two years. You
-              can read more about specific contributions in my resume or my
-              LinkedIn profile linked below.
+              St. Jude Children's Research Hospital as a Student Machine
+              Learning Engineer with the High Performance Computing group. I
+              also served as a peer tutor with the Rhodes CS Department during
+              my last two years. You can read more about specific contributions
+              in my resume or my LinkedIn profile linked below.
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; I am the kind of person who loves to learn
