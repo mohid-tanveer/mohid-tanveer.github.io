@@ -33,20 +33,21 @@ const Rags = () => {
               </a>
               <br />
               <br />
-              hpcGPT was my final project during my role as a student AI
-              engineer at St. Jude Children's Research Hospital's High
-              Performance Computing (HPC) group. Our goal was to explore ways to
-              leverage Retrieval-Augmented Generation (RAG) to support the use
-              of Large Language Models (LLMs) in the healthcare domain,
-              specifically for researchers and clinicians at St. Jude. Through
-              my day-to-day work, I had exposure to the workflows of the other
-              members of our HPC group as well as the researchers we directly
-              worked with and one thing that stood out to me was the barrier to
-              entry for researchers in understanding the documentation and code
-              needed to interface with HPC resources (like the cluster) to
-              support their research. In fact, a large portion of ServiceDesk
-              tickets were related to bits and pieces of documentation buried in
-              the wiki or scattered across multiple sources.
+              hpcGPT was my final project during my role as a Student Machine
+              Learning Engineer at St. Jude Children's Research Hospital's High
+              Performance Research Computing (HPRC) group. Our goal was to
+              explore ways to leverage Retrieval-Augmented Generation (RAG) to
+              support the use of Large Language Models (LLMs) in the healthcare
+              domain, specifically for researchers and clinicians at St. Jude.
+              Through my day-to-day work, I had exposure to the workflows of the
+              other members of our HPC group as well as the researchers we
+              directly worked with and one thing that stood out to me was the
+              barrier to entry for researchers in understanding the
+              documentation and code needed to interface with HPC resources
+              (like the cluster) to support their research. In fact, a large
+              portion of ServiceDesk tickets were related to bits and pieces of
+              documentation buried in the wiki or scattered across multiple
+              sources.
               <br />
               <br />
               This project was my attempt to address this issue and provide a
