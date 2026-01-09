@@ -82,6 +82,7 @@ const About = () => {
                   <span className={styles.skillItem}>TensorFlow</span>
                   <span className={styles.skillItem}>PyTorch</span>
                   <span className={styles.skillItem}>PySpark</span>
+                  <span className={styles.skillItem}>Scikit-learn</span>
                   <span className={styles.skillItem}>Apache Spark</span>
                   <span className={styles.skillItem}>NumPy</span>
                   <span className={styles.skillItem}>SciPy</span>
