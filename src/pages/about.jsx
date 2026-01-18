@@ -63,6 +63,7 @@ const About = () => {
                 <div className={styles.skillsList}>
                   <span className={styles.skillItem}>Python</span>
                   <span className={styles.skillItem}>C</span>
+                  <span className={styles.skillItem}>Go</span>
                   <span className={styles.skillItem}>Java</span>
                   <span className={styles.skillItem}>JavaScript</span>
                   <span className={styles.skillItem}>TypeScript</span>
@@ -120,17 +121,17 @@ const About = () => {
           </div>
           <div className="grid-item5050">
             <span className={styles.abouttext}>
-              I mean what really makes a person who they are? I think it’s the
+              I mean what really makes a person who they are? I think it's the
               company they keep; the people they collaborate with socially and
               professionally. You want to work with people who are adaptable,
               but also have a strong sense of self, driving you creatively and
               motivating you to innovate.
               <br />
               <br />
-              &nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am a current
-              master's student at UCSD studying Computer Science with a focus on
-              AI/ML and a graduate from Rhodes College (class of 2025) with a BS
-              in Computer Science. I am currently interested in recommendation
+              &nbsp; &nbsp; &nbsp; My name is Mohid Tanveer, I am a current MS
+              student at UCSD studying Computer Science with a focus on AI/ML
+              and a graduate from Rhodes College (class of 2025) with a BS in
+              Computer Science. I am currently interested in recommendation
               systems, probabilistic modeling, and statistical methods;
               especially the effects applications of such topics can have in
               easing and improving our day to day lives and interactions.

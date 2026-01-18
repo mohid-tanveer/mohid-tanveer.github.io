@@ -49,41 +49,43 @@ const Tubify = () => {
               2023 (mentioned in <Link to="/work/receiptify">I need REST.</Link>
               ) that had been simmering for a little over a year. What started
               as a simple idea of contributing to the social aspect of listening
-              to music by allowing users to see what songs they like in common
-              with their friends, opening avenues for conversation and
-              discovery, quickly evolved into a sort of hyper-fixation on the
-              second part of that statement: social-powered music discovery. I
-              had no prior knowledge regarding the inner workings of
-              recommendation systems, and how they already take into account
-              social data to make recommendations. But hell, what's the harm in
-              learning through doing?
+              to music by opening avenues to users for conversation and
+              discovery, quickly evolved into a sort of fixation on the second
+              part of that statement: social-powered music discovery. I didn't
+              really have prior knowledge regarding the inner workings of
+              recommendation systems, nor how they already take into account
+              social data to make recommendations. I just had an itch to look
+              into how we could improve these systems for real-world users; and
+              what's the harm in learning through doing?
               <br />
               <br />
-              Rather than focusing on how to make something different, I first
-              focused on learning exactly how they functioned, and what role
-              music machine learning played in the process, leading me to a
-              second hyper-fixation. Since I already had experience with sound
-              design and music production, I was drawn into how audio signal
-              processing and machine learning intertwined, and I consulted with
-              one of my professors at Rhodes, Dr. Phillip Kirlin, whose research
-              focus lies within music informatics. He provided me with
-              recommendations for books and papers to look into for both music
-              recommendation systems and audio signal processing, directing me
+              Rather than starting off with focusing on how to make something
+              different, I focused on learning exactly how these recommender
+              systems functioned, and the role music machine learning played in
+              the process. Since I already had experience with sound design and
+              music production this led to another fixation, I was drawn into
+              how audio signal processing and machine learning intertwined. I
+              consulted with one of my professors at Rhodes, Dr. Phillip Kirlin,
+              whose research focus lies within music informatics. He provided me
+              with recommendations for books and papers to look into for music
+              recommendation systems and audio signal processing; directing me
               toward some of the techniques I employed in the project.
               <br />
               <br />
-              After building a solid foundation, I started building things;
-              naturally, the project shifted from just comparing users' liked
-              songs to modeling why people gravitate toward certain tracks in
-              the first place. Originally, I was planning on using Spotify's
-              audio features API endpoint for audio analysis due to convenience.
-              However, since Spotify removed access to these key attributes, I
-              had to build my own pipeline from scratch if I wanted to keep
-              audio features active in the model. I ended up implementing an
-              audio analysis system using signal-processing techniques like
-              Mel-frequency cepstral coefficients, spectral contrast, and tempo
-              estimation to construct audio features that captured timbral and
-              rhythmic characteristics.
+              After gaining a solid foundation, I started building things.
+              Looking into modeling why people gravitate toward certain tracks
+              in the first place, I knew I needed to quantify audio qualities.
+              Originally, I was planning on using Spotify's audio features API
+              endpoint for this audio analysis due to convenience. However,
+              since Spotify removed this endpoint and access to their derived
+              audio features, I had to build my own pipeline from scratch if I
+              wanted to keep this idea active in the modelling. I ended up
+              implementing an audio analysis system using signal-processing
+              techniques like Mel-frequency cepstral coefficients, spectral
+              contrast, and tempo estimation to construct audio features that
+              captured timbral and rhythmic characteristics (essentially took
+              the audio data to quantifiable numbers representing things like
+              energy, danceability, acousticness).
               <br />
               <br />
               On top of this, I experimented with transformer-based embeddings
@@ -106,18 +108,18 @@ const Tubify = () => {
               The system looks for overlap and divergence among social circles,
               highlighting songs that resonate across friends while also nudging
               users toward tracks that sit just outside their usual cluster. I
-              wanted to balance that tailored “you'd love this” feeling you get
-              when sharing music with friends along with intentional diversity,
-              so users weren't just trapped inside an echo chamber of their own
-              listening habits.
+              wanted to balance that tailored “I know they would love this”
+              feeling you get when sharing music with friends along with
+              intentional diversity, so users weren't just trapped inside an
+              echo chamber of their own listening habits.
               <br />
               <br />
-              Coming into my last semester at Rhodes, we had the opportunity in
-              our Senior Seminar course to work on a project of our choosing. I
-              found other students who were interested in doing something
-              related to music streaming and we settled on creating Tubify,
-              inspired by MTV and that early 2000s music curation and discovery
-              through music videos we grew up with. This combined my existing
+              Fast forwarding a bit into my last semester at Rhodes, we had the
+              opportunity in our Senior Seminar course to work on a project of
+              our choosing. I found other students who were interested in doing
+              something related to music streaming and we settled on creating
+              Tubify, which was inspired by MTV and its early 2000s music
+              curation/discovery through music videos. This combined my existing
               work and ideas with even more user-facing features and system
               design complexity, which you can read more about and watch demos
               of within the written documentation linked{" "}

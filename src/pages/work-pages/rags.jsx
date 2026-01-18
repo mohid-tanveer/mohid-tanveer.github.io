@@ -41,13 +41,14 @@ const Rags = () => {
               domain, specifically for researchers and clinicians at St. Jude.
               Through my day-to-day work, I had exposure to the workflows of the
               other members of our HPC group as well as the researchers we
-              directly worked with and one thing that stood out to me was the
-              barrier to entry for researchers in understanding the
+              directly worked with. One thing that stood out to me was the
+              barrier to entry for clinical researchers in understanding the
               documentation and code needed to interface with HPC resources
-              (like the cluster) to support their research. In fact, a large
-              portion of ServiceDesk tickets were related to bits and pieces of
-              documentation buried in the wiki or scattered across multiple
-              sources.
+              (like the cluster) to support their research. In fact, after
+              analyzing historical ticket data, I found that a large portion of
+              ServiceDesk tickets were explicitly related to or answerable by
+              pieces of documentation buried in the wiki or scattered across
+              multiple sources.
               <br />
               <br />
               This project was my attempt to address this issue and provide a
