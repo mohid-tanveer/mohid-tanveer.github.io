@@ -98,10 +98,11 @@ const About = () => {
               </div>
 
               <div className={styles.skillCategory}>
-                <span className={styles.categoryTitle}>DevOps & Tools</span>
+                <span className={styles.categoryTitle}>Tools & Frameworks</span>
                 <div className={styles.skillsList}>
                   <span className={styles.skillItem}>Git/GitHub</span>
                   <span className={styles.skillItem}>Linux/Unix/GNU/RHEL</span>
+                  <span className={styles.skillItem}>Jira</span>
                   <span className={styles.skillItem}>Docker</span>
                   <span className={styles.skillItem}>Kubernetes</span>
                   <span className={styles.skillItem}>Jupyter</span>
@@ -115,6 +116,8 @@ const About = () => {
                   <span className={styles.skillItem}>Virtual Machines</span>
                   <span className={styles.skillItem}>Slurm</span>
                   <span className={styles.skillItem}>Splunk</span>
+                  <span className={styles.skillItem}>AI Agents</span>
+                  <span className={styles.skillItem}>GitHub Copilot</span>
                 </div>
               </div>
             </div>
