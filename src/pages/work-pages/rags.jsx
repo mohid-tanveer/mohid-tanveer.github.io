@@ -35,7 +35,7 @@ const Rags = () => {
               <br />
               hpcGPT was my final project during my role as a Student Machine
               Learning Engineer at St. Jude Children's Research Hospital's High
-              Performance Research Computing (HPRC) group. Our goal was to
+              Performance Research Computing (HPC) group. Our goal was to
               explore ways to leverage Retrieval-Augmented Generation (RAG) to
               support the use of Large Language Models (LLMs) in the healthcare
               domain, specifically for researchers and clinicians at St. Jude.
@@ -71,7 +71,7 @@ const Rags = () => {
               related, our data source consisted of documentation and
               code/terminal snippets from our Confluence wiki. I embedded this
               data by chunking the wiki pages and generating dense vector
-              embeddings, allowing the system to return relevant results even
+              embeddings, allowing the system to return relevant results
               without requiring the same technical jargon used in the
               documentation. Since the workflows used by researchers and HPC
               members involved many interconnected concepts (e.g., modules,
